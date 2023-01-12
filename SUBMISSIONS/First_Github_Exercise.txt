@@ -1,0 +1,11 @@
+GitHub Exercise
+
+This is a simple exercise designed to give you practice using GitHub. Additionally the following questions are meant to stimulate you to think about how innovation arises and propagates. Type your answers and commit them to your repository as outlined in the ÒCompleting Your First Exercise With Git Reading CardÓ document. Be ready to share these answers <briefly> in the discussion section.
+
+* Bill Gates or Gary Kidall? Thomas Edison or Nicola Tesla? Rosalind Franklin or Watson and Crick? Steve(Jobs or Wozniak)?
+
+All of these innovators have impressive accomplishments that broadly impacted society.  Bill Gates' initiatives brought the personal computer to many millions of home-users.  Nicola Tesla saw the untapped potential (pun intended) of an AC-driven electrical framework.  Rosalind Franklin had a beautiful goemetrical insight that ushered in an era of advanced medicine.  And Steve Jobs relentlessly pushed the technology industry to make innovations broadly accessible and meaningfu
+
+* How might modern data science be disruptive to your industry? 
+
+There are so many possibilities!  Tailored molecular designs could lead to more sustainable and useful materials.  Automated manufacturing could vastly improve efficiencies and safety of industrial processes.  Even fundamental questions could be impacted, such as more quickly solving quantum mechanical problems.
