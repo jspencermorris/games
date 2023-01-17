@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 mkdir ./s1
 mkdir ./s1/s3
 mkdir ./s1/s2
