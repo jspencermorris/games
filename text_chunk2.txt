@@ -1,2 +1,0 @@
-virtual environments are good for managing package dependencies ensuring everything is compatible
-I like them because they minimize incompatibilities and keep development organized
