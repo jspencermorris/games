@@ -1,6 +1,3 @@
-import sys
-input_rack = sorted(sys.argv[1].upper())
-
 def run_scrabble(rack):
     """run_scrabble takes a scrabble rack as a function argument and prints all
     'valid scrabble English' words that can be constructed from that rack,
@@ -48,7 +45,3 @@ def run_scrabble(rack):
         scores.append((word,score_word(word)))
     scores = sorted(scores, key=lambda option: option[1], reverse=True)
     print(scores)
-        
-
-#input_rack = 'ZAEfiee'
-run_scrabble(input_rack)
