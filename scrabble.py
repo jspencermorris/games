@@ -47,3 +47,5 @@ def run_scrabble(rack):
         scores.append((word,score_word(word)))
     scores = sorted(scores, key=lambda option: option[1], reverse=True)
     print(scores)
+    
+    return scores
