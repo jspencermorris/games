@@ -4,6 +4,8 @@ def run_scrabble(rack):
     along with their scrabble scores, sorted by score"""
     print('calling run_scrabble...')
     
+    rack = sorted(rack.upper())
+    
     # step 0: error handling
     if len(rack)<2:
         return('You entered fewer than 2 characters')
