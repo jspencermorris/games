@@ -44,8 +44,8 @@ def run_scrabble(rack):
     from wordscore import score_word
     scores = []
     for word in valid_words:
-        scores.append((score_word(word), word))
-    scores = sorted(scores, reverse=True)
+        scores.append((score_word(word),word))
+    scores = sorted(scores, key=lambda option: option[0], reverse=True)
     print(scores)
     
     return scores
