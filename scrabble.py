@@ -28,6 +28,7 @@ def run_scrabble(rack):
     
     # step 3 - find valid words
     valid_words = []
+    invalid_chars = []
     for word in sowpods_words:
         temp_rack = list(rack)
         temp_word = list(word)
@@ -37,13 +38,14 @@ def run_scrabble(rack):
                 temp_word.remove(letter)
         if len(temp_word) - temp_rack.count('?') - temp_rack.count('*') <= 0:
             valid_words.append(word)
+            invalid_chars.append(temp_word)
             # also need to create a valid_letters list that only includes valid ones for scoring
 
     # step 4 - scoring
     from wordscore import score_word
     score_list = []
-    for word in valid_words:
-        score_list.append((score_word(word),word))
+    for word,wildcards in zip(valid_words,invalid_chars):
+        score_list.append((score_word(word)-score_word(wildcards),word))
     score_list = sorted(score_list, key=lambda option: option[0], reverse=True)
     #score_list.append(len(score_list))
     valid_num = len(score_list)
