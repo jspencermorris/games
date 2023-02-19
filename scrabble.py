@@ -53,7 +53,7 @@ def run_scrabble(rack):
     print(f'This is finally returned -- \n {scores}')
     return scores
 
-import sys
-input_rack = sys.argv[1]
-#input_rack = sorted(sys.argv[1].upper())
-run_scrabble(input_rack)
+#import sys
+#input_rack = sys.argv[1]
+##input_rack = sorted(sys.argv[1].upper())
+#run_scrabble(input_rack)
