@@ -48,9 +48,9 @@ def run_scrabble(rack):
     
     #print(f'This is finally returned -- \n{score_list}')
     
-    import sys
-    input_rack = sys.argv[1]
-    run_scrabble(input_rack)
+    #import sys
+    #input_rack = sys.argv[1]
+    #run_scrabble(input_rack)
     
     blah = [(4, 'AB'), (4, 'BA')]
     return blah
