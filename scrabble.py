@@ -1,7 +1,7 @@
 def run_scrabble(rack):
     """run_scrabble takes a scrabble rack as a function argument and prints all
     'valid scrabble English' words that can be constructed from that rack,
-    along with their scrabble scores, sorted by score"""
+    along with their scrabble score_list, sorted by score"""
     print('calling run_scrabble...')
     
     rack = sorted(rack.upper())
@@ -42,18 +42,10 @@ def run_scrabble(rack):
 
     # step 4 - scoring
     from wordscore import score_word
-    scores = []
+    score_list = []
     for word in valid_words:
-        scores.append((word,score_word(word)))
-    scores = sorted(scores, key=lambda option: option[1], reverse=True)
-    #for word in valid_words:
-    #    scores.append((score_word(word),word))
-    #scores = sorted(scores, key=lambda option: option[0], reverse=True)
+        score_list.append((score_word(word),word))
+    score_list = sorted(score_list, key=lambda option: option[0], reverse=True)
     
-    print(f'This is finally returned -- \n {scores}')
-    return scores
-
-#import sys
-#input_rack = sys.argv[1]
-##input_rack = sorted(sys.argv[1].upper())
-#run_scrabble(input_rack)
+    print(f'This is finally returned -- \n{score_list}')
+    return score_list
