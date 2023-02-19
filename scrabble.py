@@ -45,12 +45,12 @@ def run_scrabble(rack):
     for word in valid_words:
         score_list.append((score_word(word),word))
     score_list = sorted(score_list, key=lambda option: option[0], reverse=True)
+    score_list.append(len(score_list))
     
     #print(f'This is finally returned -- \n{score_list}')
     
     #import sys
     #input_rack = sys.argv[1]
     #run_scrabble(input_rack)
-    
-    blah = [(4, 'AB'), (4, 'BA')]
-    return blah
+
+    return score_list
