@@ -29,11 +29,11 @@ def run_scrabble(rack):
     
     # find valid words
     valid_words = [] # initialize an empty list to store all valid words
-    #invalid_chars = []
+    invalid_chars = []
     for word in sowpods_words:
         temp_rack = list(rack)
         temp_word = list(word)
-        invalid_chars = []
+        #invalid_chars = []
         for letter in word:
             if letter in temp_rack:
                 temp_rack.remove(letter)
