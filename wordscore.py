@@ -1,4 +1,3 @@
-
 def score_word(word):
     """for a given set of characters, return the scrabble score"""
     scores = {"a": 1, "c": 3, "b": 3, "e": 1, "d": 2, "g": 2,
