@@ -31,6 +31,16 @@ def display(deposits, top, bottom, left, right):
         ans += '\n'
     return ans
 
+def tons_inside(deposits, top, bottom, left, right):
+    """Returns the total number of tons of deposits for which the row is at least top,
+    but strictly less than bottom, and the column is at least left, but strictly
+    less than right."""
+    tonnage = 0
+    for deposit in deposits:
+        if top<=deposit[0]<bottom and left<=deposit[1]<right:
+            tonnage += deposit[2]    
+    return tonnage
+
 def birthday_count(dates_list):
     """Returns the total number of birthday pairs in the dates_list"""
     bday_counts = {}
