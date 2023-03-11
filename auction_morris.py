@@ -1,5 +1,5 @@
 import numpy as np
-from bidder_morris import Bidder as Bidder2a
+#from bidder_morris import Bidder as Bidder2a
 
 class User: # analogous to Bandit
     def __init__(self):
@@ -71,6 +71,7 @@ class Auction: # analogous to ...Game (primarily), but also Solver?
     def plot_history(self): # optional
         pass
 
+'''
 print('='*120); print('='*120)
 num_rounds = 1000
 num_users = 5
@@ -88,3 +89,4 @@ print('*'*80)
 auction.plot_history()
 
 print(auction.balances)
+'''
