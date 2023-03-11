@@ -1,4 +1,5 @@
 import numpy as np
+from bidder_morris import Bidder as Bidder2a
 
 class User: # analogous to Bandit
     def __init__(self):
@@ -16,7 +17,7 @@ class Auction: # analogous to ...Game (primarily), but also Solver?
     def __init__(self, users, bidders):
         self.users = users # users is a list of all User objects
         self.bidders = bidders # bidders is a list of all Bidder objects
-        self.balances = {i:1000 for i in range(len(self.bidders))} #{i:1000 for i in range(len(self.bidders))}
+        self.balances = {i:0 for i in range(len(self.bidders))} #{i:1000 for i in range(len(self.bidders))}
         # enable round-based analysis in Auction Class
         self.history = {}
         self.scores = {}
@@ -33,6 +34,8 @@ class Auction: # analogous to ...Game (primarily), but also Solver?
         bids = [] # initialize an empty list that will be used to store each bidder's bid
         # steps 1,2,3 - for each bidder, run the bid() method and return a bid-amount
         for bidder_id in range(len(self.bidders)): # each bidder is allowed to return a bid
+            if self.balances[bidder_id] < -1000:
+                continue
             #print(f'\tbidder_id is:  {bidder_id}')
             ##### left off here in video 7.11.1 @ 8:40  <--yes, he's talking about Users, but should be same principle for Bidders... 
             bids.append(self.bidders[bidder_id].bid(user_id))
@@ -68,3 +71,20 @@ class Auction: # analogous to ...Game (primarily), but also Solver?
     def plot_history(self): # optional
         pass
 
+print('='*120); print('='*120)
+num_rounds = 1000
+num_users = 5
+users = [User() for i in range(num_users)]
+b0, b1, b2 = Bidder2a(1,num_rounds), Bidder2a(1,num_rounds), Bidder2a(1,num_rounds)
+auction = Auction(users, [b0, b1, b2])
+for i in range(num_rounds):
+    print('^'*40,f'round # {i}','^'*40)
+    auction.execute_round()
+print('*'*80)
+print(b0)
+print(b1)
+print(b2)
+print('*'*80)
+auction.plot_history()
+
+print(auction.balances)
