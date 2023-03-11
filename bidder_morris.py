@@ -53,7 +53,8 @@ class Bidder: # analogous to ...Solver?
             epsilon = 0.05
             click_ratio = self.users_est_prob[user_id][len(self.users_est_prob[user_id])-1]
             #print(f'\t\t\tclick_ratio is: {click_ratio}')
-            if self.users_clicks.get(self.last_user) == None or sum(filter(None, self.users_clicks[self.last_user])) < 5:
+            if self.users_clicks.get(self.last_user) == None or sum(x if x is not None else 0 for x in self.users_clicks[self.last_user]) < 5:     # or sum(filter(None, self.users_clicks[self.last_user])) < 5:
+                #print('__________________________________________________________________________________________________yot')
                 bid_result = 1
             else:
                 if random.random() > epsilon:
