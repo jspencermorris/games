@@ -1,5 +1,4 @@
 import numpy as np
-from bidder_morris import Bidder as Bidder
 
 class User:
     '''
@@ -116,24 +115,3 @@ class Auction:
         ....................................................................................................................
         '''
         pass
-
-'''
-print('='*120)
-print('='*120)
-num_rounds = 1000
-num_users = 5
-users = [User() for i in range(num_users)]
-b0, b1, b2 = Bidder2a(1,num_rounds), Bidder2a(1,num_rounds), Bidder2a(1,num_rounds)
-auction = Auction(users, [b0, b1, b2])
-for i in range(num_rounds):
-    print('^'*40,f'round # {i}','^'*40)
-    auction.execute_round()
-print('*'*80)
-print(b0)
-print(b1)
-print(b2)
-print('*'*80)
-auction.plot_history()
-
-print(auction.balances)
-'''
