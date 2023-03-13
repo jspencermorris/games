@@ -1,5 +1,5 @@
 import numpy as np
-from bidder_morris import Bidder
+from bidder_morris import Bidder as Bidder
 
 class User:
     '''
