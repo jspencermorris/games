@@ -1,5 +1,5 @@
 import numpy as np
-from bidder_morris import Bidder as Bidder2a
+#from bidder_morris import Bidder as Bidder2a
 
 class User:
     '''
@@ -117,7 +117,7 @@ class Auction:
         '''
         pass
 
-
+'''
 print('='*120)
 print('='*120)
 num_rounds = 1000
@@ -136,3 +136,4 @@ print('*'*80)
 auction.plot_history()
 
 print(auction.balances)
+'''
