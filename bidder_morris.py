@@ -65,6 +65,7 @@ class Bidder:
         if self.num_rounds > 0 and self.balance > -1000:
             self.num_rounds -= 1
             self.last_user = user_id
+            '''
             if self.users_auctions.get(user_id) == None:
                 self.users_auctions[user_id] = 1
                 # Set an initial estimated probability of None
@@ -80,13 +81,16 @@ class Bidder:
                     # Set an initial estimated probability of None
                     self.users_est_prob[user_id].append(None)
             click_ratio = self.users_est_prob[user_id][len(self.users_est_prob[user_id])-1]
+            '''
             # print(click_ratio)
             bid_result = 0.5 #np.random.random(1) * np.random.choice([True, False], p=[click_ratio,1-click_ratio])
             # print(f'\t\tvalue of bid result: {bid_result}')
+            '''
             if self.users_bids.get(user_id) == None:
                 self.users_bids[user_id] = [bid_result]
             else:
                 self.users_bids[user_id].append(bid_result)
+            '''
             bid_result = round(bid_result, 3)
             return bid_result
     def notify(self, auction_winner, price, clicked):
