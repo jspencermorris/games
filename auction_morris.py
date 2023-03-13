@@ -72,46 +72,50 @@ class Auction:
             # Bidder's bid
         bids = []
         # Each Bidder is allowed to return a bid
-        for bidder_id in range(len(self.bidders)):
-            if self.balances[bidder_id] < -1000:
-                continue
-            # print(f'\tbidder_id is:  {bidder_id}')
-            bids.append(self.bidders[bidder_id].bid(user_id))
-        # print(f'Here are all bids from the auction round: {bids}')
-        # Find the value of the highest bid
-        bid_first_price = max(bids)
-        # Create a list of Bidders who had the highest bid
-        winner_candidates = [i for i,j in enumerate(bids) if j \
-            == bid_first_price]
-        # Choose a winner randomly if there is a tie
-        bid_winner = np.random.choice(winner_candidates)
-        # Select the winning price by finding the second-highest bid
-        if len(bids) == 1:
-            bid_second_price = bid_first_price
-        elif len(winner_candidates) > 1:
-            # Asign the second-price as the first-price if multiple \
-                # first-price bids
-            bid_second_price = bid_first_price
-        else:
-            bids.remove(bid_first_price)
-            bid_second_price = max(bids)  #!#!# set self.balances comprehension to -999 instead of 0;   Line 95 produces a ValueError:  max() arg is an empty sequence
-        # print(f'Here is the conclusion of the auction round:  Winning Bidder:  {bid_winner}  Second-Price:  {bid_second_price}')
-        # Run show_ad() method of the selected User and return the result
-        result = self.users[user_id].show_ad()
-        # print(f'Did the user click the ad...?  -->  {result}')
-        # Each Bidder is notified of the Auction round result
-        for bidder_id in range(len(self.bidders)):
-            # Notify and update balance for winner
-            if bidder_id == bid_winner:
-                self.bidders[bidder_id].notify(auction_winner=True, \
-                    price=bid_second_price, clicked=result)
-                if result:
-                    self.balances[bidder_id] += 1
-                self.balances[bidder_id] -= bid_second_price
-            # Notify for losers
+        if any(i > -1000 for i in self.balances.values()):
+            print('noooo')
+            for bidder_id in range(len(self.bidders)):
+                if self.balances[bidder_id] < -1000:
+                    continue
+                # print(f'\tbidder_id is:  {bidder_id}')
+                bids.append(self.bidders[bidder_id].bid(user_id))
+            # print(f'Here are all bids from the auction round: {bids}')
+            # Find the value of the highest bid
+            bid_first_price = max(bids)
+            # Create a list of Bidders who had the highest bid
+            winner_candidates = [i for i,j in enumerate(bids) if j \
+                == bid_first_price]
+            # Choose a winner randomly if there is a tie
+            bid_winner = np.random.choice(winner_candidates)
+            # Select the winning price by finding the second-highest bid
+            if len(bids) == 1:
+                bid_second_price = bid_first_price
+            elif len(winner_candidates) > 1:
+                # Asign the second-price as the first-price if multiple \
+                    # first-price bids
+                bid_second_price = bid_first_price
             else:
-                self.bidders[bidder_id].notify(auction_winner=False, \
-                    price=bid_second_price, clicked=None)
+                bids.remove(bid_first_price)
+                bid_second_price = max(bids)  #!#!# set self.balances comprehension to -999 instead of 0;   Line 95 produces a ValueError:  max() arg is an empty sequence
+            # print(f'Here is the conclusion of the auction round:  Winning Bidder:  {bid_winner}  Second-Price:  {bid_second_price}')
+            # Run show_ad() method of the selected User and return the result
+            result = self.users[user_id].show_ad()
+            # print(f'Did the user click the ad...?  -->  {result}')
+            # Each Bidder is notified of the Auction round result
+            for bidder_id in range(len(self.bidders)):
+                # Notify and update balance for winner
+                if bidder_id == bid_winner:
+                    self.bidders[bidder_id].notify(auction_winner=True, \
+                        price=bid_second_price, clicked=result)
+                    if result:
+                        self.balances[bidder_id] += 1
+                    self.balances[bidder_id] -= bid_second_price
+                # Notify for losers
+                else:
+                    self.bidders[bidder_id].notify(auction_winner=False, \
+                        price=bid_second_price, clicked=None)
+        else:
+            raise Exception('oops')
     def plot_history(self): # optional
         '''
         ....................................................................................................................

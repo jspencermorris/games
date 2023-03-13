@@ -107,5 +107,7 @@ class Bidder:
             self.users_wins[self.last_user].append(auction_winner)
             self.users_prices[self.last_user].append(price)
             self.users_clicks[self.last_user].append(clicked)
+        if auction_winner:
+            self.balance -= price
         if clicked:
             self.balance += 1
