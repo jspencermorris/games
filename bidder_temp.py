@@ -79,9 +79,29 @@ class Bidder:
                 else:
                     # Set an initial estimated probability of None
                     self.users_est_prob[user_id].append(None)
+            ##### here is where the bid strategy goes
+            ##### np.nansum(np.array(mydict['user0'],dtype=np.float))   --->   win_ratio = np.nansum(np.array(self.users_wins[user_id],dtype=np.float)) / sum(self.users_auctions[user_id])
+            #####
+            ##### the decision for the bid amount should be based on:
+            #####       0) # of auctions this User has been in, so far (i.e. the opportunity i've had to collect stats)
+            #####       1) the win_ratio (i.e. the opportunity i've had to collect ROBUST stats)
+            #####     **2) the click_ratio  (i.e. the actual estimated probability, based on my ROBUST stats)
+            #####       3) the average winning-price and the most recent winning-price  (i.e. correlation factor based on the hidden stats that others may have but are hidden to me)
+            #####       4) the number of remaining rounds
+            #####
+            epsilon = 0.05
             click_ratio = self.users_est_prob[user_id][len(self.users_est_prob[user_id])-1]
-            # print(click_ratio)
-            bid_result = 0.5 #np.random.random(1) * np.random.choice([True, False], p=[click_ratio,1-click_ratio])
+            # print(f'\t\t\tclick_ratio is: {click_ratio}')
+            if self.users_clicks.get(self.last_user) == None or sum(x if x is not None else 0 for x in self.users_clicks[self.last_user]) < 5:     # or sum(filter(None, self.users_clicks[self.last_user])) < 5:
+                bid_result = 1
+            else:
+                if random.random() > epsilon:
+                    if click_ratio > 0.5:
+                        bid_result = click_ratio
+                    else:
+                        bid_result = 0
+                else:
+                    bid_result = 1
             # print(f'\t\tvalue of bid result: {bid_result}')
             if self.users_bids.get(user_id) == None:
                 self.users_bids[user_id] = [bid_result]
