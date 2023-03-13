@@ -47,7 +47,7 @@ class Auction:
     def __init__(self, users, bidders):
         self.users = users
         self.bidders = bidders
-        self.balances = {i:0 for i in range(len(self.bidders))}
+        self.balances = {i:0 for i in range(len(self.bidders))} #!#!# set self.balances comprehension to -999 instead of 0;   Line 95 produces a ValueError:  max() arg is an empty sequence
         self.history = {}
     def __repr__(self):
         return self.__class__.__name__
@@ -95,7 +95,8 @@ class Auction:
                 bid_second_price = bid_first_price
             else:
                 bids.remove(bid_first_price)
-                bid_second_price = max(bids)
+                bid_second_price = max(bids)  #!#!# set self.balances comprehension to -999 instead of 0;   Line 95 produces a ValueError:  max() arg is an empty sequence
+            # print(f'Here is the conclusion of the auction round:  Winning Bidder:  {bid_winner}  Second-Price:  {bid_second_price}')
             # Run show_ad() method of the selected User and return the result
             result = self.users[user_id].show_ad()
             # print(f'Did the user click the ad...?  -->  {result}')
@@ -113,6 +114,9 @@ class Auction:
                     self.bidders[bidder_id].notify(auction_winner=False, \
                         price=bid_second_price, clicked=None)
         else:
-            raise Exception('oops')
+            raise Exception('No eligible Bidders!')
     def plot_history(self): # optional
+        '''
+        ....................................................................................................................
+        '''
         pass
