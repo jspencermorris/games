@@ -86,7 +86,7 @@ class Auction:
         # Choose a winner randomly if there is a tie
         bid_winner = np.random.choice(winner_candidates)
         # Select the winning price by finding the second-highest bid
-        if len(winner_candidates) > 1:
+        if len(winner_candidates) >= 1:
             # Asign the second-price as the first-price if multiple \
                 # first-price bids
             bid_second_price = bid_first_price
