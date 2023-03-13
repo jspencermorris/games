@@ -88,7 +88,7 @@ class Auction:
         # Select the winning price by finding the second-highest bid
         if len(bids) == 1:
             bid_second_price = bid_first_price
-        elif len(winner_candidates) >= 1:
+        elif len(winner_candidates) > 1:
             # Asign the second-price as the first-price if multiple \
                 # first-price bids
             bid_second_price = bid_first_price
