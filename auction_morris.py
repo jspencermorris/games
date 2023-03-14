@@ -73,8 +73,6 @@ class Auction:
         bids = []
         # Each Bidder is allowed to return a bid
         for bidder_id in range(len(self.bidders)):
-            if self.balances[bidder_id] < -1000:
-                continue
             # print(f'\tbidder_id is:  {bidder_id}')
             bids.append(self.bidders[bidder_id].bid(user_id))
         # print(f'Here are all bids from the auction round: {bids}')
