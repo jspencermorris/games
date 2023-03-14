@@ -1,9 +1,9 @@
 import numpy as np
-import random
 
 class Bidder:
     '''
     Represents a Bidder in an Auction.
+    Strategy:  constant bid value of 0.5
 
     Data Attributes defined here:
         num_users (Scalar): the number of User instances in the Auction
@@ -65,7 +65,7 @@ class Bidder:
         if self.num_rounds > 0 and self.balance > -1000:
             self.num_rounds -= 1
             self.last_user = user_id
-            bid_result = 0.5 #np.random.random(1) * np.random.choice([True, False], p=[click_ratio,1-click_ratio])
+            bid_result = 0.5
             bid_result = round(bid_result,3)
             return bid_result
     def notify(self, auction_winner, price, clicked):
