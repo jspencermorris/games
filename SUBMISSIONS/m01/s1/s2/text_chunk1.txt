@@ -1,1 +1,0 @@
-virtual environments are good for managing package dependencies

@@ -1,1 +1,0 @@
-to run the shell script, type ./make_tree.sh
