@@ -64,7 +64,7 @@ class Bidder:
         '''
         self.num_rounds -= 1
         self.last_user = user_id
-        bid_result = 0
+        bid_result = 0.5
         bid_result = round(bid_result,3)
         return bid_result
     def notify(self, auction_winner, price, clicked):
