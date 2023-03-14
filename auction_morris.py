@@ -48,7 +48,6 @@ class Auction:
         self.users = users
         self.bidders = bidders
         self.balances = {i:0 for i in range(len(self.bidders))}
-        self.history = {i:[0] for i in range(len(self.bidders))}
     def __repr__(self):
         return self.__class__.__name__
     def __str__(self):
@@ -74,7 +73,10 @@ class Auction:
         # Each Bidder is allowed to return a bid
         for bidder_id in range(len(self.bidders)):
             # print(f'\tbidder_id is:  {bidder_id}')
-            bids.append(self.bidders[bidder_id].bid(user_id))
+            bid_value = self.bidders[bidder_id].bid(user_id)
+            if bid_value == None:
+                bid_value = 0
+            bids.append(bid_value)
         # print(f'Here are all bids from the auction round: {bids}')
         # Find the value of the highest bid
         bid_first_price = max(bids)
@@ -109,7 +111,6 @@ class Auction:
             else:
                 self.bidders[bidder_id].notify(auction_winner=False, \
                     price=bid_second_price, clicked=None)
-                
-            self.history[bidder_id].append(self.balances[bidder_id])
+
     def plot_history(self): # optional
         pass
