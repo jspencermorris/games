@@ -51,7 +51,7 @@ class Auction:
     def __repr__(self):
         return self.__class__.__name__
     def __str__(self):
-        return f'This is an Auction object!'
+        return 'This is an Auction object!'
     def execute_round(self):
         '''
         Execute all steps in a single Auction round:
@@ -74,7 +74,7 @@ class Auction:
         for bidder_id in range(len(self.bidders)):
             # print(f'\tbidder_id is:  {bidder_id}')
             bid_value = self.bidders[bidder_id].bid(user_id)
-            if bid_value == None:
+            if bid_value is None:
                 bid_value = 0
             bids.append(bid_value)
         # print(f'Here are all bids from the auction round: {bids}')
@@ -112,5 +112,7 @@ class Auction:
                 self.bidders[bidder_id].notify(auction_winner=False, \
                     price=bid_second_price, clicked=None)
 
-    def plot_history(self): # optional
-        pass
+    def plot_history(self):
+        '''
+        Plotting for diagnostics
+        '''

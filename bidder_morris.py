@@ -1,5 +1,3 @@
-import numpy as np
-
 class Bidder:
     '''
     Represents a Bidder in an Auction.
@@ -44,12 +42,11 @@ class Bidder:
         self.balance = 0
         # initialize variables to store useful user-related data
         self.last_user = 0
-        self.users_auctions = {}
-        self.users_bids = {}
+        #self.users_auctions = {}
+        #self.users_bids = {}
         self.users_wins = {}
         self.users_prices = {}
         self.users_clicks = {}
-        self.users_est_prob = {}
     def __repr__(self):
         return self.__class__.__name__
     def __str__(self):
@@ -77,7 +74,7 @@ class Bidder:
                 True if the User clicked the ad, False otherwise;  if
                 the Bidder didn't win the Auction, value is None
         '''
-        if self.users_wins.get(self.last_user) == None:
+        if self.users_wins.get(self.last_user) is None:
             self.users_wins[self.last_user] = [auction_winner]
             self.users_prices[self.last_user] = [price]
             self.users_clicks[self.last_user] = [clicked]
