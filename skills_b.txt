@@ -1,0 +1,637 @@
+Below is the assessment I would recommend as a credible, evidence-based, but still reasonably favorable self-assessment for you.
+
+My overall read is:
+
+You are clearly above bare-entry-level in multiple areas because of the MIDS degree, the breadth of coursework, and the fact that you have applied these methods in real projects.
+You should still be careful not to over-claim level 2 or 3 where the sheet explicitly asks for deep mathematical derivation ability, rigorous specialization, or new methods/peer-reviewed novelty.
+Your strongest areas for this form are:
+Fundamental skills
+NLP / GenAI
+Solution development / applied modeling
+Some computer vision
+Some time-series
+Your weaker / more limited areas are:
+Autonomous reasoning & planning
+Bayesian specialized skills
+Very advanced theory / new algorithm development
+
+I would frame your profile as:
+“Broad, graduate-trained applied data scientist with strong fundamentals, strongest specialization in NLP/GenAI, meaningful exposure to CV and time-series, and substantial real-world experience at the interface of scientific data, workflows, data quality, and ML-enabled solutions.”
+
+1) Big-picture recommendation on how to fill this out
+
+For each skill row, I suggest thinking this way:
+
+100 = you genuinely meet almost all of the description at that level.
+66 = you have substantial evidence for much of it, but not all.
+33 = you have meaningful exposure/training, but not enough to strongly claim the level.
+0 = little to no direct evidence.
+
+For the free-text boxes, keep them:
+
+brief,
+concrete,
+tied to coursework or projects,
+and written in a way that sounds like a professional self-assessment, not a resume dump.
+2) Recommended overall specialization strategy
+
+For the specialized sheets, I would treat these as your priority order:
+
+NLP-GenAI → strongest, should be your main specialized field
+Computer Vision → worthwhile secondary field
+Time-Series → worthwhile tertiary field, but be more conservative
+Autonomous R&P → modest/basic only
+Bayesian → modest/basic only
+3) FUNDAMENTAL SKILLS — recommended ratings and evidence
+A. Probability and statistics
+Recommended
+Level 1: 100
+Level 2: 66
+Level 3: 0
+Level 4: 0
+Why
+
+You definitely exceed level 1. You completed formal statistics coursework and have applied statistical reasoning repeatedly in ML/model evaluation and scientific analysis.
+Level 2 says “extensive knowledge and mathematical understanding.” I think 66 is fair because you do have graduate training and applied depth, but probably not the kind of deeply theoretical/stat-math identity that would justify 100.
+
+Suggested experience text
+
+Level 1 text:
+
+Completed graduate coursework in frequentist statistics and applied these concepts across ML and scientific data analysis projects. Used distributions, hypothesis testing, confidence intervals, error analysis, and exploratory statistical visualizations in coursework and work-related analyses.
+
+Level 2 text:
+
+Built stronger mathematical understanding through graduate statistics and machine learning coursework, including likelihood-based thinking, model evaluation, and statistical interpretation of results. Applied these ideas in model assessment and scientific data investigations, including experimental and observational datasets.
+
+B. Data query, processing, EDA, feature engineering
+Recommended
+Level 1: 100
+Level 2: 66
+Level 3: 0
+Level 4: 0
+Why
+
+This is one of your strongest fundamentals. You have a lot of real-world evidence here: LIMS/data quality work, scientific datasets, feature engineering in ML projects, SQL exposure from data engineering, EDA across many projects.
+Level 2 asks for extensive knowledge and selecting best methods. You have a decent case for 66.
+
+Suggested experience text
+
+Level 1 text:
+
+Extensive hands-on experience with data wrangling, feature engineering, and EDA across graduate coursework and work projects. Used Python, pandas, SQL, visualization, dimensionality reduction, clustering, preprocessing, outlier handling, and domain-specific feature construction for scientific and product datasets.
+
+Level 2 text:
+
+Through ML, NLP, CV, and capstone projects, developed stronger judgment in selecting preprocessing, feature engineering, dimensionality reduction, and clustering approaches appropriate to the problem and dataset. Also applied these skills in work involving scientific data quality, data structuring, and downstream modeling readiness.
+
+C. Algorithm
+Recommended
+Level 1: 100
+Level 2: 33
+Level 3: 0
+Level 4: 0
+Why
+
+You clearly know SGD, backprop, regularization, bagging, boosting at a practical level.
+But level 2 requires you to clearly articulate the mathematics and derive algorithms when applicable. You probably have partial support from coursework, but I would be more conservative here than in data prep or models.
+
+Suggested experience text
+
+Level 1 text:
+
+Covered core ML algorithm concepts in graduate coursework, including gradient-based optimization, backpropagation, regularization, bagging, and boosting. Applied these concepts in neural-network and classical ML projects using endorsed Python libraries.
+
+Level 2 text:
+
+Built working mathematical understanding of optimization and learning algorithms through applied machine learning, NLP, and computer vision coursework. Comfortable explaining these concepts and using them appropriately in modeling, though my experience has been more applied than algorithm-development focused.
+
+D. Models
+Recommended
+Level 1: 100
+Level 2: 66
+Level 3: 0
+Level 4: 0
+Why
+
+This is strong for you. You have touched a broad range of classical and neural models in coursework and projects.
+Level 2 asks for mathematical understanding and broader knowledge beyond level 1. Given your coursework and projects, 66 feels solid.
+
+Suggested experience text
+
+Level 1 text:
+
+Graduate coursework and projects covered a broad range of regression, classification, clustering, neural network, and transformer-based models. Implemented models using sklearn, TensorFlow/Keras, and related libraries across applied ML, NLP, CV, and capstone work.
+
+Level 2 text:
+
+Developed stronger mathematical and practical understanding of many model families through coursework and project work, including classical ML, neural networks, CNNs, RNN/LSTMs, and transformers. Applied model selection based on problem framing, data characteristics, and evaluation criteria.
+
+E. Model Assessment
+Recommended
+Level 1: 100
+Level 2: 66
+Level 3: 33
+Level 4: 0
+Why
+
+You are strong here. You have repeatedly worked with train/val/eval splits, confusion matrices, F1, MCC, precision/recall, R²-like concepts, cross-validation, leakage concerns, and evaluation in both coursework and projects.
+Level 2 at 66 is justified.
+Level 3 says same as level 2, so if the form truly allows it, you could arguably put 33 simply to indicate some advanced maturity without overclaiming. But if you want to be conservative, put 0 at level 3.
+My safer recommendation: 33 or 0, depending on how bold you want to be.
+
+Suggested experience text
+
+Level 1 text:
+
+Strong experience evaluating models using train/validation/test protocols, confusion matrices, precision, recall, F1, MCC, accuracy, and other metrics in coursework and applied projects. Have also considered leakage, generalization, and bias-variance tradeoffs in modeling workflows.
+
+Level 2 text:
+
+Built substantial experience in matching evaluation methods to business or scientific objectives, especially in ML/NLP projects and capstone work. Comfortable comparing models across multiple metrics and using results to refine feature, modeling, and retrieval strategies.
+
+Optional Level 3 text if using 33:
+
+While I have not developed fundamentally new model assessment methods, I have used evaluation creatively and iteratively to support applied decision-making in complex project settings.
+
+F. Solution Development
+Recommended
+Level 1: 100
+Level 2: 66
+Level 3: 33
+Level 4: 0
+Why
+
+This is another strong area for you, especially because your profile is not just academic. You have real solution-oriented work: LIMS improvements, data-quality enablement, reports, pipelines, capstone repo, retrieval systems, integration thinking, collaboration with technical and domain stakeholders.
+Level 2 is quite defensible. Level 3 says same as level 2, so again you might optionally use 33, but not necessary.
+
+Suggested experience text
+
+Level 1 text:
+
+Significant experience using Python and related tools to build practical solutions across coursework and work. This includes notebooks, data pipelines, model experiments, reporting, and production-adjacent solution design, along with collaboration across technical and domain teams.
+
+Level 2 text:
+
+Built and maintained higher-quality code and project structure through graduate coursework, capstone work, and job-related data solutions. Experience includes repository organization, reusable code, testing-minded development habits, and collaboration with stakeholders to translate business/scientific needs into workable technical solutions.
+
+Optional Level 3 text if using 33:
+
+My experience is strongest in applied solution development and cross-functional design rather than formal enterprise MLOps leadership, but I have helped shape robust technical approaches and coach or guide others in practical problem-solving.
+
+G. xAI
+Recommended
+Level 1: 66
+Level 2: 33
+Level 3: 0
+Level 4: 0
+Why
+
+You have enough ML maturity to claim level 1, but I do not recall strong direct evidence that SHAP/PDP/ICE/xAI was a major repeated theme in your work.
+So I would not overstate this.
+
+Suggested experience text
+
+Level 1 text:
+
+Developed practical understanding of interpretable models and model-behavior analysis through ML coursework. Familiar with feature importance and model interpretation concepts, and able to reason about model behavior and error modes during evaluation.
+
+Level 2 text:
+
+Have some exposure to broader explainability concepts and methods through coursework and self-study, though this has not been a major specialization area in my work to date.
+
+H. Advanced Topics
+Recommended
+Level 1: N/A
+Level 2: 33
+Level 3: 0
+Level 4: 0
+Why
+
+You have some exposure to RL, MDP-like ideas, few-shot/one-shot via GenAI coursework and broader reading, but not enough to claim strong depth.
+
+Suggested experience text
+
+Level 2 text:
+
+Gained exposure to advanced topics such as reinforcement learning, few-shot learning, and probabilistic/agentic concepts through graduate coursework and GenAI-related study. My experience here is foundational rather than specialized.
+
+4) NLP / GenAI SKILLS — your strongest specialized sheet
+
+This is the sheet where you should present yourself most strongly.
+
+A. NLP Basics
+Recommended
+Level 1: 100
+Level 2: 66
+Level 3: 33
+Level 4: 0
+Why
+
+This is clearly strong. You took NLP, did projects, used tokenization, preprocessing, embeddings, classic representations, etc.
+Level 3 says same as level 2, so depending on style you can put 33 or leave 0. If this organization treats higher-level rows cumulatively, a modest 33 is fine.
+
+Suggested experience text
+
+Level 1 text:
+
+Completed graduate NLP coursework covering text ingestion, preprocessing, tokenization, POS-related concepts, regular expressions, and statistical/embedding-based text representations such as TF-IDF and word embeddings. Applied these techniques in course projects and downstream NLP pipelines.
+
+Level 2 text:
+
+Built stronger depth in NLP preprocessing and feature engineering through graduate NLP work and subsequent GenAI/RAG projects. Comfortable selecting and combining text preprocessing, embedding, and representation approaches based on the problem and data.
+
+Optional Level 3 text:
+
+While my work has been more applied than research-novelty focused, I have used these methods in increasingly sophisticated settings beyond introductory NLP tasks.
+
+B. Semantic and Knowledge Representation
+Recommended
+Level 1: 33
+Level 2: 0 or 33
+Level 3: 0
+Level 4: 0
+Why
+
+This is not a core strength unless you have specific hidden experience with ontologies / KGs. You do have some LIMS/master/reference data and structured-domain semantics experience, but it is not the same thing as strong knowledge graph / ontology development.
+I would likely do:
+
+Level 1: 33
+Level 2: 0
+Suggested experience text
+
+Level 1 text:
+
+Some exposure to semantic representation concepts through NLP study and through work involving structured scientific data, metadata, and domain-specific data relationships. My direct hands-on experience with formal knowledge graphs and ontologies is limited.
+
+C. Traditional Methods
+Recommended
+Level 1: 100
+Level 2: 66
+Level 3: 33
+Level 4: 0
+Why
+
+You have good support here from NLP coursework and ML background.
+
+Suggested experience text
+
+Level 1 text:
+
+Graduate NLP and ML coursework included feature-based text modeling and framing NLP tasks such as classification, topic-related tasks, and entity-oriented problems. Applied classical ML methods such as logistic regression, decision trees, and SVMs to text-related problems.
+
+Level 2 text:
+
+Built stronger understanding of traditional NLP methods through coursework and project work, including problem formulation, feature extraction, and model selection. Comfortable identifying practical approaches for non-generative NLP tasks.
+
+Optional Level 3 text:
+
+My experience is stronger in application and adaptation than in developing novel traditional NLP methods, but I have applied them beyond purely introductory settings.
+
+D. NN and Deep Learning Methods
+Recommended
+Level 1: 100
+Level 2: 66
+Level 3: 33
+Level 4: 0
+Why
+
+You took NLP with deep learning and worked with BERT-family models, transformers, TensorFlow/Keras. This is strong.
+I would still stop short of claiming full level 2 mastery at 100 because “deep mathematical understanding” and benchmark fluency is a high bar.
+
+Suggested experience text
+
+Level 1 text:
+
+Completed graduate NLP with deep learning coursework covering RNNs, LSTMs, encoder-decoder concepts, and transformers. Implemented deep-learning NLP models using TensorFlow/Keras and related libraries for classification and entity-focused tasks.
+
+Level 2 text:
+
+Developed substantial practical and conceptual understanding of deep learning for NLP through coursework and projects, including BERT-family models and transformer-based methods. Built, tuned, and evaluated models for domain-specific NLP tasks using modern libraries and benchmark-style evaluation workflows.
+
+Optional Level 3 text:
+
+Have applied modern deep NLP methods to nontrivial problems, though not yet at the level of publishing novel neural NLP research.
+
+E. Gen-AI
+Recommended
+Level 1: 100
+Level 2: 66
+Level 3: 33
+Level 4: 0
+Why
+
+This is one of your best categories. You have coursework in GenAI plus capstone and RAG/LLM work.
+Level 2 at 66 is appropriate.
+Level 3 at 33 is fine if you want to signal active currency without pretending you train foundation models.
+
+Suggested experience text
+
+Level 1 text:
+
+Completed graduate coursework in generative AI and applied these concepts in capstone and other projects. Familiar with prompt engineering, RAG concepts, foundation models, and practical generative applications such as question answering, summarization, and chat-style systems.
+
+Level 2 text:
+
+Built and evaluated non-trivial GenAI workflows, especially retrieval-augmented pipelines, LLM-based summarization/re-ranking, prompt design, and model/tool selection. In capstone work, helped develop an end-to-end application using LLMs, embeddings, retrieval, and structured output generation for a domain-specific use case.
+
+Optional Level 3 text:
+
+I stay current with GenAI developments and have applied recent methods in practical project settings. My experience is stronger in applied system design and evaluation than in training domain foundation models from scratch.
+
+5) COMPUTER VISION SKILLS — worthwhile secondary specialization
+A. CV Basics
+Recommended
+Level 1: 100
+Level 2: 33
+Level 3: 0
+Level 4: 0
+Why
+
+You completed CV coursework, so level 1 is easy.
+Level 2 says “same as level 1” plus optional compression implementation, so 33 is reasonable.
+
+Suggested experience text
+
+Level 1 text:
+
+Completed graduate coursework in computer vision covering image preprocessing, filtering, transformations, segmentation concepts, convolution, and related foundations. Applied these concepts in course assignments and image-based modeling exercises.
+
+Level 2 text:
+
+Built additional practical familiarity with core CV operations and implementation through coursework and project work, though this is not my primary specialization.
+
+B. Traditional Methods
+Recommended
+Level 1: 66
+Level 2: 33
+Level 3: 0
+Level 4: 0
+Why
+
+You likely encountered PCA/k-means/features and problem decomposition in CV coursework. But unless you did strong traditional CV projects with SIFT/HOG/LBP/GLCM/Gabor, I would avoid 100.
+
+Suggested experience text
+
+Level 1 text:
+
+Gained exposure to traditional CV problem framing, feature extraction, dimensionality reduction, and unsupervised methods through graduate computer vision coursework. Comfortable with the general concepts and workflow, though my strongest experience in CV is with modern ML/deep learning approaches.
+
+Level 2 text:
+
+Have some deeper conceptual exposure to traditional CV techniques from coursework, but my direct application has been more limited than for deep learning-based methods.
+
+C. Deep Learning Methods
+Recommended
+Level 1: 100
+Level 2: 66
+Level 3: 0
+Level 4: 0
+Why
+
+This is your strongest CV category because of coursework and applied ML background.
+You likely used CNN-type methods and modern libraries. Level 2 at 66 is defensible.
+
+Suggested experience text
+
+Level 1 text:
+
+Completed graduate computer vision coursework covering neural networks, CNNs, convolution/pooling, and autoencoder-related ideas. Used modern Python libraries to solve image classification and related tasks.
+
+Level 2 text:
+
+Developed substantial practical understanding of deep learning for computer vision through coursework and implementation work, including CNN-based architectures and model training/evaluation. My experience is strongest in application rather than cutting-edge CV research.
+
+D. Gen-AI
+Recommended
+Level 1: 33
+Level 2: 0 or 33
+Level 3: 0
+Level 4: 0
+Why
+
+You do have GenAI coursework and multimodal awareness, but I would be careful here. Unless you directly implemented image generation / multimodal text-to-image systems, keep this modest.
+
+Suggested experience text
+
+Level 1 text:
+
+Have foundational exposure to image-generation and multimodal GenAI concepts through graduate GenAI study and related reading. My direct hands-on experience in vision-specific generative modeling is limited relative to NLP/LLM applications.
+
+6) TIME-SERIES SKILLS — useful but conservative
+
+Your KPF work, calibration analyses, and other scientific/process data work help here. But this sheet is somewhat forecasting-method-centric, so don’t oversell.
+
+A. Time-series basics
+Recommended
+Level 1: 66
+Higher levels: likely 0
+Why
+
+You definitely understand trend, stationarity concepts at a practical level, time-dependent leakage, rolling behavior, and time-based evaluation.
+But I am not sure you have broad formal time-series forecasting depth across all named concepts.
+
+Suggested experience text
+
+Level 1 text:
+
+Applied time-series analysis concepts in scientific and engineering contexts, including trend investigation, error analysis, exploratory analysis over time, and careful train/test separation to avoid leakage. Recent work includes analysis of calibration and radial-velocity time-series data from the Keck Planet Finder.
+
+B. Traditional methods
+Recommended
+Level 1: 33
+Higher levels: 0
+Why
+
+The sheet explicitly mentions ARIMA/SARIMA/VAR/etc. If you have not directly tuned these models, be conservative.
+
+Suggested experience text
+
+Level 1 text:
+
+Have foundational exposure to classical time-series modeling concepts and libraries through coursework/self-study, but my applied experience has focused more on time-indexed scientific data analysis than on extensive classical forecasting model development.
+
+C. Tree-based methods
+Recommended
+Level 1: 33 or 66
+Higher levels: 0
+Why
+
+You know tree-based methods well in general, but the question is whether you’ve used them specifically for time-series with feature extraction/selection.
+If you did any of this in process-data work, use 66. If not, use 33.
+
+Suggested experience text
+
+Level 1 text:
+
+Strong familiarity with tree-based models generally, including random forests and gradient boosting, and some understanding of how engineered lagged or domain-specific features can support time-series-style prediction problems. My direct applied experience here is moderate rather than a primary specialization.
+
+D. Neural networks / Linear-additive / Bayesian time-series
+Recommended
+0 unless you have specific evidence
+7) AUTONOMOUS REASONING & PLANNING — modest/basic only
+
+This should be filled out conservatively.
+
+A. Knowledge Representation
+Recommended
+Level 1: 33
+Suggested text
+
+Have foundational exposure to knowledge representation concepts through NLP/GenAI study and experience working with structured domain data, metadata, and workflow logic. Limited direct experience building formal knowledge-representation systems.
+
+B. Agents
+Recommended
+Level 1: 33
+Suggested text
+
+Familiar with basic agent and multi-agent concepts through GenAI study and current industry developments. Some conceptual understanding of simple agentic workflows, but limited hands-on development of autonomous multi-agent systems to date.
+
+C. Traditional Methods
+Recommended
+Level 1: 33
+Suggested text
+
+Foundational understanding of reasoning under uncertainty, heuristic decomposition, and planning concepts through coursework and related study. Direct hands-on work has been limited.
+
+D. Reinforcement Learning
+Recommended
+Level 1: 33
+Suggested text
+
+Have foundational exposure to reinforcement learning concepts such as states, actions, rewards, value functions, and tabular methods through coursework and self-study. This is not a primary applied area for me.
+
+8) BAYESIAN SKILLS — modest/basic only
+
+Because the sheet says Bayesian is encouraged but not required, I would keep this honest and light.
+
+A. Bayesian Basics
+Recommended
+Level 1: 33
+Suggested text
+
+Familiar with core Bayesian concepts such as Bayes’ rule, priors/posteriors, likelihood, entropy, and Monte Carlo ideas through statistics and ML coursework. Limited direct project experience with full Bayesian modeling workflows.
+
+B. Random Processes
+Recommended
+Level 1: 33
+Suggested text
+
+Have conceptual familiarity with random-process topics such as Markov chains, autoregressive processes, Gaussian processes, HMMs, and Kalman filtering through coursework/self-study, but limited direct implementation experience.
+
+C. Graphical Model
+Recommended
+Level 1: 33
+Suggested text
+
+Some conceptual exposure to Bayesian networks and related graphical-model ideas through ML/NLP study. Direct hands-on modeling experience is limited.
+
+D. Inference
+Recommended
+Level 1: 33
+Suggested text
+
+Familiar with the concepts of Bayesian inference, MCMC, variational inference, EM, and related methods through coursework and reading, though I have limited hands-on experience building Bayesian inference pipelines in practice.
+
+9) COMPETENCY SIGNAL — what your assessment will probably imply
+
+Based on your background and this rubric, I think your self-assessment most naturally supports this narrative:
+
+Fundamental skills: solidly level 1, with partial-to-strong evidence toward level 2 in several categories
+Specialized field: strongest in NLP/GenAI, with a credible case for meaningful level 2 progress in parts of that sheet
+Secondary depth: computer vision
+Additional exposure: time-series
+Emerging/basic: autonomous reasoning, Bayesian
+
+That seems well aligned with your current corporate title situation:
+AI Scientist – Associate, but an associate with unusually broad prior scientific and data-system experience.
+
+10) My candid advice on tone
+
+Do not undersell yourself into sounding like a beginner. You are not one.
+
+At the same time, avoid claiming:
+
+level 3/4 in most areas,
+“new algorithms,”
+or strong specialized Bayesian / autonomous systems experience unless you can point to specific artifacts.
+
+The strongest and most believable stance is:
+
+“I have strong applied breadth, graduate-level technical training, and a clear specialization in NLP/GenAI, with meaningful experience translating messy scientific/business problems into structured data and modeling solutions.”
+
+That is a strong story.
+
+11) Suggested short list of strongest evidence sources to mention repeatedly
+
+Across the text boxes, reuse these:
+
+MIDS coursework:
+Frequentist Statistics
+Applied Machine Learning
+Data Engineering
+NLP with Deep Learning
+Computer Vision
+Generative AI
+Capstone
+Capstone / Homiere
+embeddings
+retrieval pipeline
+LLM summarization / re-ranking
+structured outputs
+end-to-end application
+NLP project work
+BERT / SciBERT / SpanBERT
+NER/classification/evaluation workflows
+Work projects
+scientific data structuring
+LIMS / data quality / workflow enablement
+model-readiness of messy scientific data
+KPF time-series analysis
+applied analytics in laboratory / process contexts
+12) Best-effort consolidated scorecard
+
+Here is the concise version I’d use as your baseline:
+
+Fundamental
+
+Probability & Statistics: L1 100, L2 66
+Data Query / Processing / EDA / FE: L1 100, L2 66
+Algorithm: L1 100, L2 33
+Models: L1 100, L2 66
+Model Assessment: L1 100, L2 66, optional L3 33
+Solution Development: L1 100, L2 66, optional L3 33
+xAI: L1 66, L2 33
+Advanced Topics: L2 33
+
+NLP / GenAI
+
+NLP Basics: L1 100, L2 66, optional L3 33
+Semantic / Knowledge Rep: L1 33
+Traditional Methods: L1 100, L2 66, optional L3 33
+NN / Deep Learning: L1 100, L2 66, optional L3 33
+Gen-AI: L1 100, L2 66, optional L3 33
+
+Computer Vision
+
+CV Basics: L1 100, L2 33
+Traditional Methods: L1 66, L2 33
+Deep Learning: L1 100, L2 66
+Gen-AI: L1 33
+
+Time-Series
+
+Basics: L1 66
+Traditional Methods: L1 33
+Tree-based Methods: L1 33–66
+
+Autonomous R&P
+
+All four categories: L1 33
+
+Bayesian
+
+All four categories: L1 33
+
+If you want, next I can turn this into a worksheet-ready draft, with each skill formatted as:
+Progress value + one polished sentence you can paste directly into the “Description of Experience” cell.

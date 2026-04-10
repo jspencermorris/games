@@ -1,0 +1,208 @@
+My company's annual performance review cycle has begun again (EDC - employee development cycle).  I'll need to select Knowledgeable Others (KO) to provide feedback on my performance, complete the feedback for folks who have selected me as a KO, complete my performance discussion summary (PDS) which is mostly a self-assessment, and I will need to complete a Skills Assessment.  I will need your help with this 2026 EDC.  It covers the period from April1 - March31 of each year.  I joined the CCS100 team within Low Carbon Solutions company (LCS) on June 1, so just two months of this cycle were spent in my former group within EMTEC/Research.  I finished my Data Science masters last May.  When I moved into LCS, my role changed from (analytical) 'specialist' to 'Data and Computational Engineer'.  It's been a year of major changes for me.  Furthermore, my company just changed the job family structure, so now I'm in the 'Data Science, Digital, and Analytics' Job Family with the role of "AI Scientist - Associate";  associate is the lowest tier (followed by 'advanced' then 'expert' then 'senior expert' then 'principal'.
+
+Let's start with the Skills Assessment, which is being done differently this year (since now it's an excel-based form).  Meenaksi, the senior principal for AI Scientists, sent me the form and gave a brief meeting/overview.
+
+The file has these worksheets:
+INSTRUCTION, AIS COMP-SKILL MAPPING, FUNDAMENTAL SKILLS, TIME-SERIES SKILLS, NLP-GenAI SKILLS, COMPUTER VISION SKILLS, AUTONOMOUS R&P SKILLS, BAYESIAN SKILLS.
+
+HEre's what the 'INSTRUCTION' worksheet SAYS:
+"""
+Self-assessment Instruction:
+the competency levels mapped to skill levels are listed in the AIS COMP-SKILL MAPPING sheet.  For instance, at COMP 1, an individual must possess Skill Level 1 in Fundamental Data-Driven Modeling Skills and Skill Level 1 in one of the four specialized fields.  You do not need to add information to the AIS COMP-SKILL Mapping sheet.  Instead, focus on the skill assessment sheets.  Assessors will aggregate the skill assessment results for competency assesment purposes.  please note that an indivudal must meet the lower-level competency requirements before advancing to a higher level.
+
+Fundamental Data-driven functional skills:
+every data scientist (ai scientist) should conduct a self-assessment for these skills.  The description of experience rows accept free text input.  Please provide a brief description of your training and experiences that reflect these skills.  Examples of training can include specific classes taken in school, while example experiences can include specific projects you have worked on.  in the progress row, please input a numeric value of 0, 33, 66, or 100.  a value of 0 indicates no skills in the coresponding field, 33 indicates some skills, 66 indicates significant skills, and 100 indicates nearly all of hte skills (i.e. more than 90% of them).  everyone should ocnudct a self-assessment at level 1 and is encouraged to provide information at level 2.  Data scientists who consider themselves to have skill level 2 may also add information at skill level 3.
+
+Specialized field skills - time-series, NLP/GenAI, Computer Vision, Autonomous Reasoning and Planning:
+one should conduct a self-assessment for at least one of the specialized fields where they have the most expertise.  Feel free to provide self-assessments for other specialized fields as well.  Generally speaking, skill level 2 can be achieved by taking one or two rigorously designed and taught graduate-level classes, along with one or two years of additional real-world experience.  Skill Level 2 can also be achieved through other means of training and self-study with the same level of rigor.
+
+Specialized Field Skills - Bayesian:
+Bayesian modeling skills are not required for COMP 1 and are considered nice-to-have for COMP 2.  However, self-assessment is encouraged if you have relevant expertise.
+"""
+
+I skimmed through each of the other worksheets, and they are all arranged as a grid with Skills as columns and Skills Levels as Rows.  For each Skill Level of each Skill, there is 1) a box with a description, 2) a box entitled "Progress (0, 33, 66, 100)%", and 3) a box entitled "Description of your Experience"
+
+
+Here's the 'FUNDAMENTAL SKILLS' worksheet says:
+"""
+Probability and statistics:
+Skill level 1: familiar with the following concepts: bayes' rule, maximum likelihood estimation, maximum a posteriori estimation, binomial distribution, poisson distribution, normal distribution, t-distribution, t-test, chi-squared test, p-value, confidence interval, type 1 and 11 errors, entropy, qq plot, historgram, boxplot, and kernel density.  able to use these concepts to gain insights from data and analyze results.
+Skill Level 2: extensive knowledge and mathematical understanding of the methods listed under level 1.
+Skill level 3: same as level 2.
+Skill level 4: same as level 3.
+
+Data query, processing, EDA, feature engineering:
+Skill level 1: able to write basic sql queries, familiar with scaling and nofmrliazation, outlier detection, moving average, and median filter; able to extract data-driven and domain specific features, and conduct data selection ; familiar with multidimensional scaling, tSNE, and PCA; familiar with k-means, hierarchical clustering, DBSCAN, and GMM
+Skill Level 2: extensive knowledge and mathematical understanding of outlier detection methods, multidimensional scaling, tSNE, PCA, k-means, hierarchical clustering, DBSCAN, and GMM.  able to identify the best possible methods for a given problem.
+Skill level 3: able to develop new algorithm and pass rigorous peer review.
+Skill level 4: same as level 3.
+
+Algorithm:
+Skill level 1: basic understanding of stochastic gradient descent, back-propogation, L1 and L2 regularization, bagging, and boosting.
+Skill Level 2: able to clearly articulate the concept and the mathematics for stochastic gradient descent, backpropogation, L1 and L2 regularization, bagging and boosting, and able to use them correctly during modeling. able to derive the algorithms when applicable.
+Skill level 3: able to develop new algorithms and pass rigorous peer review.
+Skill level 4: able to monitor trends in this field, identify trend changes at an early stage, and develop strategic actions according.  able to lead transformative capability changes.
+
+Models:
+Skill level 1: basic understanding of linear regression, polynomial regression, logistic regression, naive bayes, linear discriminant analysis, knn, svm, cart, random forests, xgb, lightgbm, multi-layer perceptron, auto-encoder, cnn, rnn, lstm, and transformers; know which models to use for a given problem; familiar with endorsed python libraries to implement these methods.
+Skill Level 2: mathematical understanding of the models listed under level 1.  extensive knowledge of other regression and classification models not listed under level 1.  able to derive algorithms.
+Skill level 3: able to develop new algorithms and pass rigorous review.
+Skill level 4: able to monitor trends in this field, identify trend changes at an early stage, and develop strategic actions accordingly.  able to lead transformative capability changes.
+
+Model Assessment:
+Skill level 1: familiar with model generalization, various cross-validation techniques, bias-variance trade-off, confusion matrix, r2, roc/auc, precision/recall/f1, and a/b testing; able to implement them with python code
+Skill Level 2: extensive knowledge of model assessment metric, methods, and practices. able to define new assessment metrics based on business objectives.
+Skill level 3: same as level 2.
+Skill level 4: same as level 2
+
+Solution Development:familiar with and able to use endorsed python libraries.
+Skill level 1: adheres to internal coding standards and writes clean code. familiar with internal ml ops tools and follows best practices. works effectively with data engineers and ml engineers for solution development.
+Skill Level 2: able to write high-quality code and coach others.  extensive knowledge and experience in code design, testing, and ml ops practices.
+Skill level 3: same as level 2
+Skill level 4: able to monitor trends in ml ops, identify changes at an early stage, and develop strategic actions accordingly.  capable of leading transformative capability changes.
+
+xAI:
+Skill level 1: able to interpret linear regression, logistic regression, knn, and decision trees; able to use model-agnostic methods such as SHAP, PDP, and ICE to understand model behavior, debu, and explain individual predictions
+Skill Level 2: mathematical understanding of interpretable models using linear regression, logistic regression, knn, gam, decision trees, and simple Bayesian models, extensive knowledge and mathematical understanding of post hoc model-agnostic methods aincluding shap, lime, global surrogate, pdp, ice, and counterfactual explanations. able to identify the right xai methods to use and apply them effectively.
+Skill level 3: able to develop new xai methods and pass rigorous peer review.
+Skill level 4: able to monitor trends in this field, identify trend changes at an early stage, and develop strategic actions accordingly, able to lead transformative capability changes.
+
+Advanced Topics:
+Skill level 1: n/a
+Skill Level 2: extensive knowledge and mathematical understanding of reinforcement learning, Markov decision proceses, probabilistic programming, and zero/one/few-short learning.
+Skill level 3: able to develop new algorithms and models for topics covered under level 2 and pass rigorous peer review.
+Skill level 4: able to monitor trends in the field, identify trend changes at an early stage, and develop strategic actions accordingly.  able to lead transformative capability changes.
+"""
+
+Here's the 'NLP-GENAI SKILLS worksheet says:
+"""
+NLP BASICS:
+Skill level 1: able to import text data in different formats; remove stop words and convert words to tokens; use parsers and perform POS tagging; write basic regular expressions. familiar with statistical NLP and embedding concepts, able to use TF-IDF, one-hot encoding, bago f words, word2vec, glove, and fasttext.
+Skill Level 2: extensive knowledge of NLP preprocessing and feature engineering techniques.
+Skill level 3: same as level 2
+Skill level 4: same as level 2
+
+SEMANTIC AND KNOWLEDGE REPRESENTATION:
+Skill level 1: familiar with rules, knowledge graphs, and popular ontologies such as wordnet; able to create basic knowledge graphs and ontologies; proficient in using endorsed tools to create, store, and query knowledge graphs and ontologies.
+Skill Level 2: extensive knowledge of rules, knowledge graphs, ontology theories, and tools; able to develop complex knowledge graphs and ontologies; capable of developing inference algorithms for rules, knowledge graphs, and ontologies.
+Skill level 3: able to develop new approaches and pass rigorous peer review.
+Skill level 4: same as level 3.
+
+TRADITIONAL METHODS:
+Skill level 1: able to extract basic features from text; convert business problems into classical NLP problems such as classification, topic modeling, sentiment analysis, and question answering; implement probabilistic models such as n-grams and Bayesian graph networks for language; solve classical NLP problems using machine learning models such as logistic regression, decision trees, and SVM. capable of solving classification, sentiment analysis, topic modeling, and entity identification problems.
+Skill Level 2: deep mathematical understanding, including deriving the methods listed under level 1.  extensive knowledge of traditional NLP methods. able to identify optimal approaches for a given problem and develop the models accordingly.
+Skill level 3: able to develop new approaches and pass rigorous peer review.
+Skill level 4: able to monitor trends in this field, identify trend changes at their early stages, and develop strategic actions accordingly.  capable of leading transformative capability change.
+
+NN AND DEEP LEARNING METHODS:
+Skill level 1: basic understanding of RNN, LSTM, encoder-decoder, and transformer architectures; able to use endorsed libraries to implement these models for NLP applications such as classification, sentiment analysis topic modeling, and entity identification.
+Skill Level 2: deep mathematical understanding, including deriving the methods listed under level 1.  extensive knowledge of various neural netowkr and deep learning models/methods beyond level1.  able to identify optimal approaches for a given problem and develop pthe models accordingly.  familiar with popular metrics and benchmark datasets.
+Skill level 3: able to dconduct innovative research by leveraging the latest advancements in neural netowrks and deep learning for challenging problems and pass rigorous peer review.
+Skill level 4: able to monitor trends in this field, identify trend changes at their early stages, and develope strategic actions accordingly.  capable of leading transformative capability change.
+
+GEN-AI:
+Skill level 1: familiar with prompt engineering and basic understanding of RAG and agentic frameworks.  familiar with popular small and large foundation models nad techniques including GANs, diffusion, BERT, BART, GPT, and similar models. able to use endorsed libraries to solve basic generative applications including QA, chat, and summarization.
+Skill Level 2: extensive knowledge of GenAI methods and foundation models. deep mathematical understanding of how these methods work.  able to develop RAG and agentic frameworks for non-trivial problems. capable of fine-tuning models for applications. able to identify optimal approaches for a given problem and develop models accordingly.
+Skill level 3: stay current with GenAI technologies. able to conduct innovative research by leveraging the latests advancements in GenAI. capable of training domain-specific foundation models when necessary.
+Skill level 4: able to monitor trends in this field, identify trend changes at their early stages, and develop strategic actions accordingly. capable of leading transformative capability change.
+"""
+
+
+Here's the 'COMPUTER VISION' worksheet says:
+"""
+CV BASICS:
+Skill level 1: familiar with basic processing techniques including image recentering, histogram analysis, resizing, grayscale conversion, normalization, thresholding, histogram equalization, and quantization. familiar with basic transformations such as point operations, rotation, translation, scaling fourier transform, discrete cosine transform, and wavelet transform. knowledgeable about different types of noise, including gaussian white noise and salt-and-pepper noise. skilled in basic filter design for noise reduction, edge detection, sharpening, enhancement, convolution, and deconvolution. familiar with morphological operations, image segmentation, and representation. additionally, have a basic understanding of image compression.
+Skill Level 2: same as level 1. optionally able to implement image compression methods.
+Skill level 3: same as level 2.
+Skill level 4: same as level 2.
+
+TRADITIONAL METHODS:
+Skill level 1: abel to model problems correctly, such as segmentation and object classification. capable of identifying the right steps to decompose the problem and using the appropriate methods for each component.  proficient in using unsupervised methods such as PCA and k-means to gain insights from data. able to develop features in both spatial and frequency domains and conduct feature vector dimension reduction when applicable.  familiar with feature extraction methods like SIFT (scale invariant feature transform), HOG (histogram of oriented gradients), LBP (local binary pattern), gray-level co-occurance matric (GLCM), and gabor filters. knowledgeable about Markov random fields for image segmentation and completion.
+Skill Level 2: extensive knowledge and mathematical understaning, including deriving methods listed in level 1.  deep understanding of the connection between spatial domain and fourier and wavelet domains, as well as filtering theory and methods. extensive knowledge of traditional feature extraction methods.
+Skill level 3:  able to use these methods to challenging problems that are significantly different from main stream problems such as subsurface denoising, geo-body detection and classification. able to use these methods to conduct innovative research for other EM specific applications to achieve competitive advantage and pass rigorous peer review.
+Skill level 4: able to monitor trends in this field, identify changes at early stage, and develop strategic actions accordingly.  capable of leading transformative capability changes.
+
+DEEP LEARNING METHODS:
+Skill level 1: familiar with feedforward neural networks and the workings of vanilla convolutional neural networks (CNN's), including convolution and pooling. knowledgeable about auto-encoders. able to use endorsed libraries to solve denoising, image enhancement, segmentation, object detection, and classification problems.
+Skill Level 2: extensive knowledge and mathematical understanding of various deep neural networks such as U-net, VGG, and resNet. deep understanding of autoencoders and latent space. understand and be able to derive the backpropogation algorithm.  able to use these methods to solve real world problems.  familiar with popular metrics and benchmark datasets.
+Skill level 3:  able to use these methods to challenging problems that are significantly different from main stream problems such as subsurface denoising, geo-body detection and classification. able to use these methods to conduct innovative research for other EM specific applications to achieve competitive advantage and pass rigorous peer review.
+Skill level 4: able to monitor trends in this field, identify changes at early stage, and develop strategic actions accordingly.  capable of leading transformative capability changes.
+
+GEN-AI:
+Skill level 1: basic understanding of model-based image generation and text-to-image translation. basic understanding of GAN and transformer-based models. able to use endorsed GenAI libraries for a given problem.
+Skill Level 2: extensive knowledge and mathematical understanding of various GenAI models, including GANs, diffusion models, autoregressive models, various image-to-image translation methods, and multimodal text-to-image translation.
+Skill level 3:  able to use these methods to challenging problems that are significantly different from main stream problems such as subsurface denoising, geo-body detection and classification. able to use these methods to conduct innovative research for other EM specific applications to achieve competitive advantage and pass rigorous peer review.
+Skill level 4: able to monitor trends in this field, identify changes at early stage, and develop strategic actions accordingly.  capable of leading transformative capability changes.
+
+"""
+
+For the following worksheets, I am just including skill level 1 since I may not even have those levels.
+
+Here's the 'TIME-SERIES SKILLS' worksheet says (Skill Level 1 only):
+"""
+Time-series basics:
+Skill level 1: familiar with basic concepts of stationarity, AIC, BIC, ACF/PACF, trend, seasonality decomposition, MAE/MAPE/MSE/RMSE; able to write python code to impleemnt these concepts during modeling and use them correctly; able to identify trends and seasonality through EDA. able to define training and testing protocols on time series to avoid data leakage and look-ahead bias.
+
+traditional methods:
+Skill level 1: able to tune parameters to achieve high performance with the following methods: AR, MA, ARMA, ARIMA, SARIMA, SARIMAX, VAR, VARMA, VARMAX, ES, and Double/Triple ES; able to identify the right methods for use in a given problem; familiar with endorsed python libraries.
+
+tree-based methods:
+Skill level 1: familiar with XGB, GBM, LightGBM, random forest, and endorsed python libraries; able to conduct feature extraction and selection as inputs to these models; able to tune paramters to achieve high performance; understand how bagging and boosting work
+
+neural networks:
+Skill level 1: n/a (detail begins in Level 2)
+
+linear and additive models:
+Skill level 1: n/a (detail begins in Level 2)
+
+bayesian methods:
+Skill level 1: n/a (detail begins in Level 3)
+
+"""
+
+For the following worksheets, I am just including skill level 1 since I may not even have those levels.
+
+Here's the 'AUTONOMOUS R&P SKILLS' worksheet says (Skill Level 1 only):
+"""
+Knowledge Representation:
+Skill level 1: basic understanding of knowledge representation; able to use rules, logic, and knowledge graphs to represent knowledge. capable of developing knowledge representation models, such as ad hoc semantic networks and rules, for non-sophisticated applications.
+
+Agents:
+Skill level 1: basic understanding of intelligent agents and the ability to develop simple agents for specific tasks. basic understanding of multi-agent systems, protocols, and methods of multi-agent collaboration; capable of developing simple multi-agent systems.
+
+Traditional Methods:
+Skill level 1: basic understanding of reasoning, including reasoning under uncertainty such as Bayesian inference. capable of developing reasoning systems for non-sophisticated applications. able to decompose complex tasks into simple components for automatic execution and develop heuristic planning methods.
+
+Reinforcement Learning:
+Skill level 1: basic understanding of reinforcement learning concepts, including state, action, reward, policy, and value functions; capable of using these concepts to models simple problems. basic understanding of reinforcement learning methods, including multi-armed bandits, Markov decision processes, dynamic programming, Sarsa, q-learning, and planning with tabular methods; able to implement these methods for simple problems.
+
+"""
+
+For the following worksheets, I am just including skill level 1 since I may not even have those levels.
+
+Here's the 'BAYESIAN SKILLS' worksheet says (Skill Level 1 only):
+"""
+Bayesian BAsics:
+Skill level 1: familiar with Bayesian modeling concepts, including bayes' rule, entropy, spectral analysis, prior distribution, posterior distribution, likelihood, conjugate priors, and monte carlo simulation. familiar with endorsed libraries such as PyMC.
+
+Random Processes:
+Skill level 1: familiar with key concepts, including Markov chains, Markov decision processes, autoregressive processes, moving average proceses, gaussian processes, hidden Markov models (HMM), and Kalman filtering. able to develop random process models for simple real-world problems.
+
+Graphical Model:
+Skill level 1: familiar with Bayesian netowrks, Markov random field models, and conditional random fields. able to develop graphical models for simple real-world problems.
+
+Inference:
+Skill level 1: familiar with the concepts of Bayesian inference sampling-based inference, MCMC, variational inference, and the expectation-maximization (EM) method. able to write code to conduct inference over random processes and graphical models for simple real-world problems.
+
+"""
+
+Meenakshi mentioned the following during her overview:
+* Most level 3 mention new 'algorithms' but you should also consider new methods or approaches to problems
+* When we say 'peer review', that can include company-internal peer review.  For example, a patent application would certainly quality.
+
+
+I have already made a first-pass at the worksheet, filling out the Progress field for each Skill Level for each Skill based on my initial gut feeling.  But I need your help to validate my initial thoughts and to develop some brief supporting comments/evidence in the "Description of Experience" fields (where applicable).
+
+Please consider all prior context I've shared with you.  In particular, you will need an extensive and comprehensive understanding of all coursework/homework/topics/projects/reading related to my masters program.  As a reminder, I took the following courses during my Master of Information and Data Science (MIDS) program at the University of California, Berkeley: Research Design, Intro to Python Programming, Frequentist Statistics, Applied Machine Learning, Data Engineering, Natural Language Processing, Computer Vision, Generative AI, and Capstone (the latter which was primarily related to the "Homiere" project).  I believe the projects I completed for each course all had relevance to this skills assessment.  I also want you to consider all work-related projects I've discussed with you (gels classification, chem plant processing data, etc.).
+
+Please think carefully and provide me your complete feedback for this skills assessment.
