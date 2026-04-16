@@ -1,0 +1,24 @@
+Ali Rezaei — Second Draft
+Business Results
+
+Ali has contributed meaningfully to CCS100 both through technical delivery and through the quality of support he provides on business-facing studies. I have seen this most directly in the work we have done together on study support (including Mississippi-related work), where he helped structure analyses, align on what needed to be tested, and turn modeling outputs into material that could actually be used by business partners.
+
+He has also added value through development of core technical capabilities. My understanding is that he has had a major role in the hydraulics modeling work, and I have also seen him invest significant effort in planning-oriented tooling that could help accelerate early-stage evaluation of storage opportunities. In addition, he has spent time thinking carefully about maintainability and long-term code quality (for example, through refactoring discussions and more modular/object-oriented approaches), which I think is important for the long-term health of the product — not just for immediate delivery.
+
+Overall, Ali’s work has created value in more than one way: through the models themselves, through thoughtful analytical support to studies, and through helping the team move toward more sustainable technical approaches.
+
+Dimensions of Performance – Strengths
+
+Ali’s strongest dimension, in my experience, is communication — especially listening. He is unusually good at actually hearing the question being asked, sitting with it for a moment, and then responding in a way that is tailored to the person in front of him. When I was onboarding, he spent time walking me through the modeling pipeline, the scripts, the concepts, and even the language/naming conventions used by the group. What I appreciated most was that he did this patiently, deliberately, and without making assumptions about prior knowledge. He explained things at a digestible pace; he let me interrupt; he welcomed follow-up questions. That made a real difference for me.
+
+He is also very analytical. I saw this in technical discussions around code structure, in study work, and in the way he explains the hydraulics workflow. He does not tend to jump immediately to the loudest or fastest answer. Instead, he thinks through the problem, considers alternatives, and works methodically toward a reasonable path forward. That style improves the quality of the output.
+
+Ali also shows initiative in a way that I respect. He is willing to step into hard technical problems, share what he knows, and keep moving work forward even when the questions are not fully defined at the outset. He has clearly invested time in building useful capabilities (not only maintaining existing ones), and he seems to care about doing things well rather than just doing them quickly.
+
+On innovation and business value, I think these show up in a practical way in Ali’s work. He is not flashy about it, but he has contributed new technical ideas, better design approaches, and study support that helps inform real business decisions. In my experience, his contributions tend to be thoughtful, polished, and genuinely useful.
+
+Dimensions of Performance – Development Needs
+
+Ali is a strong contributor, and I mean that sincerely. The main development opportunity I see is that he could sometimes be a bit more assertive in helping constrain analytical requests up front — especially in study settings where the number of permutations can expand quickly. His instinct is to be helpful and accommodating (which is a real strength), but at times there may be value in pushing a little harder on the core hypothesis, the decision to be informed, or the minimum set of scenarios needed to answer the question well.
+
+I also think Ali has good judgment on architecture, maintainability, and technical quality; over time, I would like to see that perspective continue to gain visibility, because I think the broader team could benefit from it.

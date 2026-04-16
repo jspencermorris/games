@@ -1,0 +1,70 @@
+First Draft – Ali Rezaei KO
+1. Business Results
+
+Ali has made meaningful contributions to the CCS100 modeling effort through both technical delivery and strong support of business-facing studies. He has played a key role in developing and maintaining important modeling capabilities, including the hydraulics modeling workflow, and he has also contributed to new planning-oriented tools intended to accelerate early-stage evaluation of storage opportunities.
+
+In addition to his technical contributions, Ali has supported multiple analytical studies that helped inform business decisions. From my perspective, he has been especially effective at structuring scenario-based analyses, aligning modeling work to stakeholder questions, and translating technical results into useful inputs for planning discussions. I have worked with him directly on studies such as the Mississippi work, where he helped break down questions, coordinate analysis, and develop polished outputs for business partners.
+
+Ali also contributed value internally by helping improve the maintainability and long-term usefulness of the team’s code base. He invested significant time thinking through more modular, object-oriented approaches to refactoring parts of the workflow, which would make the system easier to understand, maintain, and enhance over time.
+
+2. Dimensions of Performance – Strengths
+
+Communicates Effectively
+Ali is one of the strongest communicators I have worked with on the team, especially in the area of listening. He takes time to understand questions before responding, often restates them thoughtfully, and tailors his explanations to the audience. When I was onboarding, he spent time walking me through the modeling pipeline, script structure, and key concepts in a way that was clear, patient, and digestible. He explained both technical details and higher-level context without making assumptions about prior knowledge, which made a real difference in helping me ramp up.
+
+He also creates an environment where questions are welcomed. In both one-on-one discussions and study alignment sessions, he is calm, respectful, and intentional in how he communicates. That style improves understanding and makes collaboration much more effective.
+
+Analytical
+Ali demonstrates strong analytical thinking in how he approaches technical and business problems. He is methodical in breaking down questions, comparing scenarios, and identifying what assumptions or parameters matter most. I have seen this in his work on study support, in his explanations of the hydraulics models, and in discussions around how the code base could be better structured. He brings sound judgment and a thoughtful pace to problem solving, which helps improve the quality of the work.
+
+Creates Business Value
+Ali’s work has created business value by improving both modeling capability and decision support. His contributions to studies and planning analyses have helped provide clearer insight into infrastructure and storage-related questions, and his work on tools and modeling workflows supports faster and more informed evaluation of options. He consistently aims to produce outputs that are useful to stakeholders, not just technically correct.
+
+Shows Initiative
+Ali shows initiative by stepping into complex technical areas, developing new capabilities, and investing time to improve how the team works. His willingness to help others understand the system, share his knowledge, and contribute beyond narrow task ownership has had a positive impact on both the team and the work. He is dependable, proactive, and clearly takes pride in delivering high-quality results.
+
+Innovates
+Ali brings a thoughtful, improvement-oriented mindset to his work. I especially saw this in discussions and working sessions around refactoring and modularizing the code base, where he put forward more structured and maintainable approaches rather than just continuing with the status quo. His work on newer planning capabilities also reflects a willingness to build practical tools that can improve speed and effectiveness for business users.
+
+3. Dimensions of Performance – Development Needs
+
+Ali is a strong contributor with a thoughtful and collaborative style. One opportunity for continued growth is to be more assertive in helping stakeholders narrow or frame analytical requests earlier in the process. In some study settings, there can be a tendency for the number of scenarios or permutations to expand significantly. Ali is very accommodating and responsive, which is a strength, but greater upfront challenge or constraint-setting could help ensure the work stays tightly aligned to the core business question and maximize efficiency.
+
+Another opportunity is for Ali to continue increasing the visibility of his technical perspective, particularly in discussions around architecture, maintainability, and modeling strategy. He has strong judgment in these areas, and broader adoption of his thinking could create additional value for the team over time.
+
+What is strongest in this draft
+
+This version captures:
+
+his listening
+his patient teaching / onboarding impact on you
+his technical depth
+his business-facing study support
+his thoughtful innovation and architecture mindset
+a safe development need that is constructive, not damaging
+What could make it even stronger
+
+You do not need more detail to have a usable KO draft, but these would strengthen it if you can easily provide them later:
+
+The exact or approximate name of Ali’s planning tool, if it has one
+Whether you want to explicitly mention:
+BBHP North vs. South in the business results section
+Mississippi study by name
+Whether you want the development need to be:
+more about stakeholder management / scoping
+or more about speaking up / elevating his technical perspective
+
+Right now I blended both, but we can make it more pointed in one direction.
+
+My recommendation for immediate revision strategy
+
+Before finalizing Ali, I would hold this draft in a “very good working version” state and revisit it after:
+
+Yoonsong
+Alex
+
+You were right that those three are strategically linked.
+
+My one caution is this: because Alex may read this closely, we should be careful that Ali’s praise does not become so pointed that it feels like an obvious contrast-piece aimed at Alex. Right now, I think this version is still safe.
+
+Send me Yoonsong’s behavioral skills next, and then do the same kind of brain dump. That one will need a more strategic touch.

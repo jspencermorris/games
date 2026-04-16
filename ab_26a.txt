@@ -1,0 +1,136 @@
+First Draft – Alex KO
+1. Business Results
+
+Alex has played a major role in driving the CCS100 effort forward and in building visibility for the product across the organization. He brings strong energy, urgency, and ambition to the work, and he has helped push the team to develop capabilities that support important business planning and decision-making needs. He has also been effective in positioning CCS100 as a strategic product with significant long-term potential.
+
+From my perspective, Alex has created business value by connecting technical work to broader business priorities, encouraging rapid progress on key deliverables, and helping expose team members to visible business-facing opportunities. For example, he has supported use of the probabilistic model in gate review settings, encouraged broader knowledge-sharing, and helped create opportunities for team members, including me, to present work to wider audiences.
+
+He also has a strong grasp of the business and economic context around CCS100, and I have personally benefited from discussions with him on economic and cash flow modeling concepts, which helped me better understand how the technical work connects to business value.
+
+2. Dimensions of Performance – Strengths
+
+Creates Business Value
+Alex is strongly oriented toward delivering business value. He consistently pushes the team to connect technical work to business needs and to keep momentum on outcomes that matter to stakeholders. He has a clear vision for the potential of CCS100 and works hard to move the organization toward that vision.
+
+Shows Initiative
+Alex demonstrates significant initiative and energy. He does not wait for perfect conditions before moving work forward, and he actively looks for opportunities to expand the product’s usefulness and visibility. He also creates opportunities for others to step into visible roles, which I appreciated in my own experience through presentations and knowledge-sharing opportunities.
+
+Makes Sound Decisions
+Alex is willing to make timely decisions in ambiguous situations and move work forward rather than letting issues stall. He is comfortable operating under uncertainty and pushing for action, which can be valuable in a fast-moving environment.
+
+Communicates Effectively
+Alex is highly engaged and brings a lot of energy to communication. He is effective at generating momentum, articulating why the work matters, and helping connect technical efforts to larger business goals. I also found his explanations of economic modeling concepts and related whiteboarding sessions helpful in building my understanding of the domain.
+
+Collaborates
+Alex works broadly across functions and is actively engaged with different team leads and stakeholders. He is clearly invested in building connections across the broader organization and aligning CCS100 work with evolving business priorities.
+
+3. Dimensions of Performance – Development Needs
+
+One of the biggest opportunities for Alex to increase his impact as a leader is to create more space for two-way communication, especially in one-on-one and problem-solving settings. He brings a high level of energy and speed to discussions, which can be motivating, but at times it can also limit space for others to ask questions, process information, or offer alternative perspectives. More deliberate listening and more room for respectful debate would strengthen communication and help others contribute more effectively.
+
+A second opportunity is around prioritization and scoping. Alex sets an ambitious pace and pushes strongly for rapid delivery, which reflects his commitment to results. At the same time, more explicit tradeoff-making and tighter control of scope would help the team focus on the highest-value work and reduce the risk of rework, confusion, or execution strain. In my view, this would improve both team effectiveness and long-term product quality.
+
+A third opportunity is around onboarding and context-setting. For people ramping into complex work, more structured guidance, clearer expectations, and better transfer of background context would significantly improve speed to effectiveness. In environments with many moving parts, urgency alone is not enough; people also need enough clarity and support to succeed. Strengthening this area would help Alex get more out of the team while also improving engagement and confidence.
+
+Why this draft works
+
+This version does a few important things:
+
+It gives Alex real credit for things that are true:
+
+vision
+urgency
+business orientation
+visibility creation
+willingness to act
+useful teaching in some areas
+
+But it also clearly captures your main concerns in professional language:
+
+talk less, listen more
+create room for dissent and dialogue
+prioritize and make tradeoffs
+stop expanding scope so casually
+improve onboarding and context transfer
+urgency without clarity is harmful
+
+That is probably the strongest safe formulation.
+
+My advice on how candid to be
+
+For Alex, I think you should aim for controlled truth, not full truth.
+
+That means:
+
+say enough that the development needs are unmistakable
+do not use loaded language
+do not sound bitter
+do not try to “win the case”
+keep everything tied to team effectiveness and leadership behavior
+
+If Billy reads it, the most credible version is not:
+“Alex is overwhelming, insensitive, and unrealistic.”
+
+The most credible version is:
+“Alex’s strength in urgency and momentum is real, but he would be more effective with more listening, prioritization, realistic scoping, and stronger context-setting.”
+
+That lands harder, actually, because it sounds fair.
+
+Could this draft be stronger?
+
+Yes. There are two possible directions.
+
+Option A: Safer / more diplomatic
+
+This is best if you think political risk is high.
+
+It would soften:
+
+“limit space for others”
+“execution strain”
+“urgency alone is not enough”
+Option B: Slightly firmer / more useful
+
+This is best if you want Billy to actually understand that the leadership style is materially causing problems.
+
+It would sharpen:
+
+listening
+psychological safety / respectful debate
+prioritization and tradeoff-making
+onboarding and clarity
+
+I think you probably want Option B, but still within professional bounds.
+
+One thing I would consider adding later
+
+If you want to sharpen the development needs without sounding personal, one very effective phrase would be something like:
+
+“Alex could further strengthen team performance by distinguishing between areas that require speed and areas that require deeper design, alignment, or technical deliberation.”
+
+That gets at your biggest complaint — everything cannot be urgent at the same level — without sounding rebellious or anti-LCS.
+
+Another possible line:
+
+“More selective use of urgency would make the signal stronger when something truly is critical.”
+
+That is subtle, but powerful.
+
+My recommendation on next step
+
+I would now do this in order:
+
+Keep this Alex draft as the working version
+Revisit Yoonsong and Ali in light of it
+Make sure the three KOs tell a coherent story:
+Ali: thoughtful, patient, strong listener
+Yoonsong: technically strong, but needs better clarity/inclusion/handoffs
+Alex: visionary and energetic, but needs listening, prioritization, and better leadership structure
+
+That trio will communicate a lot without you ever saying the sharpest version out loud.
+
+If you want, next I can produce:
+
+a firmer Alex draft
+a more diplomatic Alex draft
+or a cross-calibrated revision set for Ali, Yoonsong, and Alex together

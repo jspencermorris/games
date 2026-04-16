@@ -1,0 +1,89 @@
+First Draft – Yoonsong KO
+1. Business Results
+
+Yoonsong has made significant contributions to the CCS100 modeling capability, particularly through development and continued evolution of key modeling tools and workflows. He has played a central role in shaping and advancing the probabilistic/portfolio model and has helped translate business and stakeholder questions into technical enhancements across the modeling environment.
+
+He has also added value through his strong understanding of the broader CCS100 system, including the relationships between the data model, economic logic, storage-site assumptions, and downstream workflows. That systems-level perspective has been important in identifying needed changes, framing technical work, and supporting discussions with stakeholders across multiple functions.
+
+From what I have observed, Yoonsong also contributes by engaging with a wide range of teams to gather requirements, understand evolving business needs, and connect those needs back to modeling and software changes. His technical knowledge, speed, and ownership have helped move important capabilities forward.
+
+2. Dimensions of Performance – Strengths
+
+Analytical
+Yoonsong demonstrates strong analytical capability in how he approaches technical problems and identifies opportunities to improve the modeling environment. He has a deep understanding of the system architecture, data flow, and logic underpinning several of the team’s models, especially around storage-site modeling and related economic assumptions. He is able to connect detailed technical issues to broader business questions and identify potential solution paths quickly.
+
+Creates Business Value
+Yoonsong has clearly created business value through his contributions to CCS100 model development and enhancement. His work has helped build modeling capabilities that are used to support business-facing analyses and decision-making. He also shows a strong understanding of where additional functionality or model enhancements may be valuable and has helped keep those opportunities moving forward.
+
+Innovates
+Yoonsong consistently looks for ways to expand or improve the team’s modeling capabilities. He is forward-looking in identifying new use cases, proposing enhancements, and exploring ways to adapt tools to changing business needs. He is comfortable operating in ambiguous spaces and helping shape what new functionality may be needed.
+
+Collaborates
+Yoonsong works across functions to gather requirements and align technical work with business needs. He has built connections across teams and often serves as a bridge between stakeholders and the modeling team. He also brings useful historical context and institutional knowledge into discussions, which helps support continuity and decision-making.
+
+Communicates Effectively
+Yoonsong brings a broad understanding of the system and is often able to explain how different technical pieces fit together. He has also spent time helping me understand aspects of the modeling workflow, QC approaches, and key business concepts relevant to the role. His ability to connect technical issues to the broader business context is valuable.
+
+3. Dimensions of Performance – Development Needs
+
+One area where Yoonsong could further increase his impact is in making delegation, onboarding, and knowledge transfer more structured and scalable. Given the breadth of his knowledge and the number of priorities he manages, providing more upfront context, clearer written requirements, and more deliberate explanation when handing off work would help others execute more efficiently and build confidence faster.
+
+A related opportunity is around communication style in fast-moving situations. Yoonsong works with a high sense of urgency and manages many competing demands, which can be effective for driving progress. At the same time, slowing down at key moments to ensure shared understanding, especially when introducing new work or aligning on requirements, could improve efficiency and reduce rework.
+
+Finally, because he is often central to technical and stakeholder conversations, there is an opportunity for him to involve others earlier and more consistently in discussions tied to work they will later own or implement. Doing so could strengthen collaboration, improve continuity, and help broaden capability across the team.
+
+Why this draft is strategically safer
+
+This version does a few important things:
+
+It acknowledges what is plainly true:
+
+he built important things
+he has deep system knowledge
+he engages broadly
+he is fast and technically capable
+
+But it also places the development needs exactly where your real frustrations are, in a professionalized form:
+
+poor knowledge transfer
+weak handoff quality
+urgency overriding clarity
+not including people early enough
+
+That lets you be honest without sounding personal or vindictive.
+
+What is missing, if anything
+
+You do not need more content to make this workable.
+
+But if you want to strengthen it later, the most useful additions would be:
+
+A more neutral, concrete example of a Yoonsong success you directly observed
+For example:
+a specific probabilistic model enhancement
+a specific stakeholder workflow he drove
+a specific QC or architecture discussion that was genuinely useful
+A more neutral, concrete example for a development need
+For example:
+“In some cases, more detailed written requirements or earlier alignment with implementers would improve handoffs.”
+
+That would make the critique even more grounded and less abstract.
+
+My recommendation for next revision
+
+For now, I would keep Yoonsong in this middle state:
+
+stronger than a bare-minimum KO
+more restrained than Lauren/Ali
+clearly positive on contribution
+constructively critical on execution and leadership style
+
+Then after we do Alex, we should revisit:
+
+Ali
+Yoonsong
+Alex
+
+as a set, to make sure the three narratives are internally consistent and politically smart.
+
+One more strategic point: for Yoonsong, I think the biggest choice later will be whether you want the development section to emphasize communication clarity or inclusive collaboration more heavily. Right now I balanced both. My instinct is that this balance is good, but we can tilt it once we’ve seen Alex

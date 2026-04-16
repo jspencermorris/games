@@ -1,0 +1,24 @@
+Yoonsong Shi — Second Draft
+Business Results
+
+Yoonsong has been a major contributor to CCS100’s technical foundation. He has deep knowledge of the system, particularly around storage-related logic, economic assumptions, model interdependencies, and how the broader data/modeling workflow fits together. From what I have seen, he has played a central role in shaping key components of the modeling environment, including the probabilistic/portfolio model, and in connecting stakeholder needs back to technical enhancements.
+
+He also contributes value by engaging broadly across teams. Yoonsong regularly interfaces with stakeholders, gathers requirements, and helps translate business questions into modeling or software changes. That kind of connective role is important, especially in a space where the technical and business contexts are both evolving quickly. He also brings a great deal of historical knowledge — not just of what the system does today, but why certain decisions were made in the first place — and that context has real value.
+
+In addition, I have seen him help move work forward through sheer ownership and persistence. He is highly engaged, works very hard, and has clearly invested a great deal in building out CCS100.
+
+Dimensions of Performance – Strengths
+
+Yoonsong’s clearest strengths are analytical ability, business value creation, and innovation. He has a strong systems-level understanding of the product, and he is often able to connect detailed technical questions back to larger business needs. He sees opportunities for enhancement quickly; he is comfortable operating in ambiguity; and he is often thinking ahead about what the next capability should be, or how the current workflow might need to evolve. In a product environment like CCS100, that has been valuable.
+
+He also brings a lot of useful context into discussions. When I have worked with him on model changes, QC thinking, or storage/economic topics, it has been clear that he has broad and fairly deep knowledge of how different parts of the system fit together. That has been helpful to me in understanding the business context, the technical context, and the logic behind some of the current implementation.
+
+On collaboration, I do think Yoonsong has made meaningful efforts to work across functions and keep technical work tied to stakeholder needs. He is comfortable engaging with a range of people and translating external asks into concrete technical directions for the team. That is not trivial, and it is an important part of the role he plays.
+
+Dimensions of Performance – Development Needs
+
+The main opportunity I see for Yoonsong is around knowledge transfer — especially when work is being handed off for someone else to implement. Because he carries so much context in his head, I think there are times when the amount of background, rationale, or detail needed by the implementer can be underestimated. More structured handoffs (whether through clearer written requirements, a bit more up-front explanation, or earlier alignment with the eventual owner) would make it easier for others to execute efficiently and confidently.
+
+Related to that, I think Yoonsong could increase his impact further by being a bit more deliberate about when to slow down and ensure shared understanding. He works with a strong sense of urgency and handles many competing priorities; that drive has clearly helped move things forward. At the same time, in especially complex or ambiguous topics, a little more clarity and context at the beginning can save time later.
+
+A final thought: because he is often at the center of stakeholder and technical discussions, there may be opportunities to involve downstream implementers a bit earlier and more consistently. I think that would strengthen collaboration, broaden team capability, and improve continuity.
