@@ -1,0 +1,120 @@
+Below are three plausible Draft 1 PDS options built from what you’ve shared. They differ in emphasis, but all try to stay honest, defensible, and reasonably aligned with Alex’s style.
+
+My read is:
+
+Draft A = most balanced and safest
+Draft B = most business-impact-forward
+Draft C = most candid about the transition while still showing value
+
+I also kept the language closer to something you could actually submit, not just brainstorming notes.
+
+Draft A — Balanced / defensible
+1. Business Results and Progress of Agreed Performance Goals
+Supported CCS gate and SLM decision-making through portfolio/CMD analysis. Took over day-to-day execution of the probabilistic portfolio tool for storage decision support, ran simulations, built analyses/slides, and represented CCS100 results in discussions. This supported multiple site decisions and helped integrate CMD-style risked metrics into the storage gate process.
+Delivered software and model enhancements in CCS100 economic and probabilistic workflows. Implemented and supported changes in the economic model including base dollar year handling, tax/depreciation logic, property-tax-related updates, and OBBBA bonus depreciation changes. In the probabilistic tool, implemented fractional-year startup capability, added testing, and contributed to enhancements that improved realism and maintainability.
+Contributed to high-visibility strategic studies and cross-team model/data alignment. Supported analyses including Mississippi storage, Blue Sky contract re-evaluation, LCDC-related studies, EOR work, and Louisiana sequencing questions. Also worked closely with data and Palantir teams to align data structures, naming, and calculations between modeling workflows and downstream tools.
+2. Dimensions of Performance: Strengths
+Adaptability / applies learning. Transitioned into a very different role, business context, and team environment and came up the learning curve on CCS economics, software development workflows, and decision-support expectations while continuing to deliver useful work.
+Analytical / creates business value. Applied quantitative thinking to translate modeling outputs into business-relevant insights for gate reviews, contract questions, storage strategy, and scenario studies. Helped connect technical model behavior to decisions on cost, timing, and portfolio risk.
+Collaborates / communicates effectively. Worked across modeling, subsurface, development planning, data, and app teams; trained Lauren on the probabilistic tool; helped explain data/model logic to Palantir and data teams; and supported recurring knowledge-sharing sessions for the wider business operations group.
+3. Dimensions of Performance: Development Needs
+Increase speed and independence in software development. I made meaningful progress this year, but I still need to improve development velocity and confidence in implementing more complex changes end-to-end with less iteration and less reliance on others for context.
+Deepen commercial/economic fluency. I came into the role with limited background in CCS business terminology and economics. Continued growth in areas such as tax, depreciation, capital structure, contract value, and system economics would help me frame analyses more quickly and contribute earlier in discussions.
+Be more proactive in shaping work earlier with stakeholders. I delivered strongest results when problem framing was clear. I can create more value by engaging earlier to clarify assumptions, scope, and business questions so analysis and development effort are more targeted from the start.
+4. Development Plan Progress
+Built foundational capability in CCS economics, software development, and decision-support workflows. Learned the CCS100 model landscape, worked regularly in VS Code/Git/GitHub environments, and developed greater comfort operating in a software-development cadence with standups, tickets, bug fixes, and incremental enhancements.
+Expanded ability to support business-facing analysis. Grew from limited initial context to contributing to gate support, storage studies, contract evaluation, and scenario analysis using both deterministic and probabilistic tools.
+Developed broader collaboration and knowledge-sharing habits. Trained a subsurface user on the portfolio tool, supported alignment work with data and Palantir teams, and helped establish recurring knowledge-sharing sessions across the business operations organization.
+Draft B — Business-impact-forward
+1. Business Results and Progress of Agreed Performance Goals
+Enabled storage gate and SLM decisions through portfolio risk analysis. Served as a primary operator/supporter of the probabilistic portfolio/CMD workflow used in storage decision support, running simulations and preparing analysis that helped decision-makers compare sites based on cost, timing, and risk contribution to the portfolio.
+Supported strategic studies with material business relevance. Contributed to Mississippi storage analysis, Blue Sky contract re-evaluation, LCDC-related hydraulic/storage studies, EOR scenario work, and other targeted analyses. These efforts helped quantify tradeoffs, frame upside/downside, and support strategy discussions around storage, contracts, and system development.
+Improved the economic/modeling toolchain used for decision support. Implemented code changes tied to updated business requirements and legislation, including base dollar year logic and bonus depreciation updates, and improved portions of the probabilistic model and testing framework. Also supported migration/alignment of model data and calculations into Palantir-oriented workflows to improve accessibility and scale.
+2. Dimensions of Performance: Strengths
+Creates business value. Even while ramping up in a new domain, contributed analyses and model updates that supported active business decisions rather than purely academic work.
+Analytical / makes sound decisions. Worked through technically and economically complex issues such as depreciation treatment, tax logic, startup timing, storage portfolio risk, and scenario tradeoffs with care and rigor.
+Adapts / collaborates. Adjusted to a new company, new business, new work style, and highly cross-functional team model; collaborated with Ali, Yunsong, Trent, Rong, Lauren, planners, subsurface, data, and app teams to move work forward.
+3. Dimensions of Performance: Development Needs
+Strengthen executive-style framing of analysis. I can improve how quickly I translate technical/modeling work into a crisp business recommendation, including clearer framing of key assumptions, sensitivities, and quantified implications.
+Continue building software engineering depth. More proficiency in architecture, testing strategy, code organization, and efficient implementation would allow me to deliver enhancements faster and take on larger portions of model/tool ownership.
+Increase visibility and influence in team discussions. I can create more value by speaking up earlier and more often, especially when problem structure, assumptions, or analytical approach need clarification.
+4. Development Plan Progress
+Accelerated ramp-up in a new domain. Built working knowledge of CCS system components, hydraulics, economic concepts, and the modeling ecosystem sufficiently to support live business questions within the year.
+Applied learning directly to delivered work. Used new knowledge in economics, software tools, and modeling to implement backend changes, support analyses, and improve the practicality of model outputs for decision support.
+Broadened working network and ways of contributing. Developed productive working relationships across business operations, modeling, subsurface, planning, data, and app teams, and began contributing not only as an analyst but also as a developer and translator between teams.
+Draft C — Transition / resilience narrative
+1. Business Results and Progress of Agreed Performance Goals
+Successfully transitioned into a new role while contributing to active CCS business work. Entered a role with a steep learning curve in business language, CCS economics, software development, and team operating rhythm, and still progressed to supporting live analyses, model enhancements, and gate-related decision support during the year.
+Owned substantial execution in portfolio/CMD support and related storage studies. Took on recurring simulation, analysis, and presentation work for the probabilistic portfolio tool and contributed to studies including Mississippi storage, Blue Sky, LCDC-related work, and other storage/system questions.
+Improved core modeling workflows through targeted code changes and cross-team support. Implemented economic-model updates tied to changing business needs and legislation, improved aspects of the probabilistic codebase and testing, and worked with data/Palantir teams to align model data structures and calculations for broader usage.
+2. Dimensions of Performance: Strengths
+Resilience / adapts. Continued pushing forward through a difficult transition into a substantially different role and environment and stayed engaged in learning and delivery rather than retreating to prior comfort zones.
+Applies learning. Picked up new concepts in economics, tax/depreciation logic, software workflows, Git-based development, and business-support analysis and applied them to real model changes and decision-support work.
+Integrity / collaboration. Worked carefully and honestly within the boundaries of what I knew, sought input when needed, and collaborated with more experienced teammates rather than overstating expertise or taking shortcuts.
+3. Dimensions of Performance: Development Needs
+Develop stronger fluency and confidence in the business context. Continued growth in commercial, financial, and CCS-specific terminology would help me contribute with greater speed and confidence in meetings and decision framing.
+Develop stronger end-to-end ownership of larger technical changes. I contributed several meaningful enhancements, but I want to expand from handling targeted tickets and bounded changes toward owning larger model/tool improvements from concept through delivery.
+Improve comfort and effectiveness in fast-paced group settings. I can be more effective by increasing my visibility, sharpening verbal brevity, and asserting technical/business points earlier in discussions.
+4. Development Plan Progress
+Made meaningful progress from onboarding challenge to productive contributor. Although the initial transition was difficult, I gained enough grounding in the business and toolchain to support recurring analyses and development work by the second half of the year.
+Built technical capability relevant to the role. Increased proficiency in Git-based development, VS Code, LLM-assisted coding, testing practices, and model maintenance/enhancement work.
+Expanded organizational and stakeholder understanding. Improved understanding of how modeling work connects to planners, subsurface, contracts, data teams, and gate processes, which better positions me to contribute in the coming cycle.
+My candid assessment of these drafts
+
+Draft A is the strongest starting point for a real submission because it is:
+
+honest,
+specific,
+not overly emotional,
+and broad enough to survive scrutiny from Alex.
+
+Draft B is closer to what Alex probably wants stylistically:
+
+more business-facing,
+more “impact first,”
+more strategic.
+But it may need a little more evidence and quantification before it is safe.
+
+Draft C is the most human and truthful about the year, but it carries more risk if overused.
+The transition story is real and important, but you probably do not want the final PDS to feel like a hardship narrative. It works better as a secondary thread than the main one.
+
+What I think are your strongest raw content themes
+
+If I strip everything down, your year seems to revolve around these:
+
+Business results
+CMD / portfolio tool support for gate and SLM decisions
+Strategic studies: Mississippi, Blue Sky, LCDC, EOR, sequencing
+Economic/model code changes: base dollar year, tax/depreciation, OBBBA, property tax, startup timing
+Data-model / Palantir alignment
+Minor but real software-engineering maturity: tests, bug fixes, tickets, development cadence
+Strongest strengths
+Adaptability / applies learning
+Analytical rigor / creates business value
+Cross-functional collaboration / communication
+Possibly resilience, but I would use that carefully
+Strongest development needs
+Faster independent software development
+Stronger commercial/economic fluency
+Earlier / more confident stakeholder framing and speaking up
+Development plan progress
+
+Since you did not have a clean formal plan, the safest framing is:
+
+I built capability in the role,
+I broadened my network and operating rhythm,
+I applied new learning directly to work,
+I became productive in a very different environment.
+What is still missing before a final-quality PDS
+
+The biggest missing piece is quantification. Even rough quantification would help a lot:
+
+how many gate / SLM decisions you supported
+how many studies you materially contributed to
+whether you can reference the $500M Mississippi figure and the $244M Blue Sky upside figure carefully
+how many code changes / tickets / releases you supported
+how many stakeholders or teams you worked across
+
+Right now the language is directionally good, but numbers will sharpen it.
+
+The next best step is for me to turn one of these into a tighter, more polished submission-ready Draft 1 in your voice.
