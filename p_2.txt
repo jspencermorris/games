@@ -1,0 +1,91 @@
+Revised draft option 1
+
+This version is the safer and cleaner one. It stays close to the KOF themes and Alex’s feedback, while adding more specifics and a stronger “so what.”
+
+1. Business Results and Progress of Agreed Performance Goals
+* Operationalized portfolio/CMD decision support for storage decisions. Served as a primary operator/supporter of the probabilistic portfolio/CMD workflow used in SLM-1, TCM, TLM, gate reviews, and milestone meetings, helping decision-makers compare sites based on chance of meeting demand, cost, timing, and portfolio fit.
+	* Supported decision forums for __________, __________, East Texas 4 Corridor, and other storage evaluations.
+	* Created/refined charts and templates now used in milestone and SLM-1 reviews to help management prioritize sites and allocate resources.
+	* Maintained continuity on a critical workflow after inheriting complex code and during a colleague’s parental leave, helping keep deliverables on schedule without disruption.
+* Delivered strategic studies that informed corridor, contract, and storage choices. Contributed to Mississippi storage / Jackson Dome work, Blue Sky contract re-evaluation, delayed emitter startup analyses, PA/LC LNG analysis, EOR support, Louisiana sequencing, and related business requests under compressed timelines. These efforts helped quantify tradeoffs, clarify upside/downside, and support decisions on storage strategy, contract posture, corridor development, and portfolio prioritization.
+	* Modeled seven scenarios for East Texas 4 Corridor to evaluate coordinated development pathways.
+	* Supported Mississippi storage scenarios that informed site size, order, timing, and potential savings tied to NEJD looping.
+	* Helped communicate Blue Sky and corridor-level scenario results in ways decision-makers could act on.
+* Improved the CCS100 planning / probabilistic toolchain used for decision support. Maintained and improved the CCS100 Planning model, Jackson Dome/storage model updates, and portions of the probabilistic workflow by implementing business-driven code changes and increasing model fidelity. This improved the relevance, usability, and continuity of outputs used in live business decisions.
+	* Implemented updates tied to changing business requirements and legislation, including base dollar year logic, tax/depreciation changes, capex profile corrections, and bonus depreciation updates.
+	* Added/improved probabilistic workflow capabilities, including fractional-year startup timing, testing, and stronger analysis extraction mechanisms; also supported teammate-led enhancements such as more realistic rate-profile / economics handling.
+	* Worked with Data and Palantir teams to align model data structures and calculations so the toolchain could scale more effectively across downstream users.
+
+2. Dimensions of Performance: Strengths
+* Analytical / Creates Business Value. Applied strong analytical rigor to improve model fidelity, run high-value scenarios, and translate technical outputs into decision-quality business insight. KOF consistently emphasized precision with assumptions, economics, and scenario design, as well as direct linkage to portfolio prioritization, storage evaluation, and gate support.
+* Communicates Effectively / Creates Clarity. Converted complex probabilistic and economic outputs into concise, decision-relevant charts, slides, and presentations for management and cross-functional teams. KOF noted that these communication products improved management’s ability to understand tradeoffs and priorities quickly.
+* Collaborates / Promotes Inclusion. Worked effectively across CCS Data, Portfolio Coordination, Land, Subsurface, Development Planning, and global technology sites. Built trust with stakeholders, partnered ahead of milestone meetings to clarify site-specific issues, and trained teammates on the code-based probabilistic workflow.
+* Shows Initiative / Applies Learning. Came up to speed on inherited models quickly, stepped into critical workstreams when needed, and maintained delivery quality under tight timelines and incomplete inputs. This included taking ownership of inherited code bases and maintaining support cadence during a teammate’s parental leave.
+
+3. Dimensions of Performance: Development Needs
+* Strengthen big-picture framing and recommendation narrative. I can increase my impact by leading with the business question, key implication, and recommended next step, especially for less technical audiences or leadership forums. This includes connecting results more explicitly to portfolio tradeoffs, strategic alternatives, and business value creation.
+* Use a more exploratory approach when results are challenged. When stakeholders question outputs, I can be more effective by starting with curiosity and diagnosis before defending the result, using questions to uncover whether concerns stem from assumptions, inputs, framing, or expectations, and then using that discussion to strengthen alignment.
+* Increase proactive outreach and earlier workstream shaping. I contribute strongly once engaged, but I can amplify my impact by socializing CCS100 capabilities earlier, sharing work more proactively beyond immediate interfaces, identifying unresolved problems sooner, and helping shape new workstreams rather than only responding to existing requests.
+* Continue improving development leverage and speed. I made meaningful progress this year in software development, but I still need to improve delivery velocity and independence on more complex changes. This includes better reuse of patterns, more efficient testing/debugging, and stronger practical use of coding agents/tools.
+
+4. Development Plan Progress
+* Built foundational capability in CCS economics, modeling, and decision-support workflows. Came up the learning curve on the CCS100 model landscape, storage/probabilistic workflows, and the business forums in which outputs are used, moving from limited initial context to active support of gates, milestone reviews, and strategic studies.
+* Expanded software-development capability relevant to the role. Developed greater fluency in VS Code, Git/GitHub, ticket-based development, bug fixing, incremental enhancement work, testing practices, and LLM-assisted coding in a live business environment.
+* Expanded ability to support business-facing analysis. Grew from a technically oriented ramp-up period into contributing to corridor studies, storage strategy, contract questions, and scenario analysis using both deterministic and probabilistic tools.
+* Broadened collaboration and knowledge-sharing habits. Trained a subsurface user on the probabilistic workflow, supported alignment work with Data and Palantir teams, and helped establish recurring knowledge-sharing sessions across the broader business operations organization.
+Revised draft option 2
+
+
+
+
+
+
+This version is more assertive and more explicitly organized around ownership, impact, and Alex’s “convince me it mattered” feedback.
+
+1. Business Results and Progress of Agreed Performance Goals
+* Primary operator for probabilistic / CMD decision support in live business forums. Took on day-to-day execution of the storage probabilistic workflow used in SLM-1, TCM, TLM, gate reviews, and milestone meetings, helping management move from stand-alone site views to portfolio-level decisions based on storage capacity, probability of meeting demand, cost, timing, and risk.
+	* Supported forums and evaluations involving __________, __________, East Texas 4 Corridor, and other storage opportunities.
+	* Presented CMD and related results in gate / milestone settings and helped teams use those outputs to compare tradeoffs and prioritize next steps.
+	* Built/refined standardized charts and templates now used in milestone and SLM-1 reviews, improving speed and consistency of management understanding.
+* Delivered or supported high-value strategic studies under compressed timelines. Provided analysis for Blue Sky, Mississippi storage / Jackson Dome, delayed emitter startup questions, PA/LC LNG, EOR support, Louisiana sequencing, LCDC-related work, and other business requests. The “so what” of these efforts was clearer management understanding of tradeoffs, improved decision quality, and the ability to keep decisions moving on schedule.
+	* Primary / lead analyst: __________, EOR support, Louisiana sequencing, __________.
+	* Supporting analyst: Blue Sky contract re-evaluation, Mississippi storage, East Texas 4 Corridor, PA/LC LNG, LCDC-related studies, delayed emitter startup analyses.
+	* Modeled seven scenarios for East Texas 4 Corridor and supported Mississippi storage scenarios that informed site size, order, timing, and potential savings tied to NEJD looping.
+* Took ownership of inherited models and improved their business usefulness. Inherited complex planning / probabilistic code bases and provided continuity while also adding business-driven capability. This mattered because it preserved support for active TCM/TLM / gate work while improving model fidelity and relevance for leadership decisions.
+	* Maintained and improved CCS100 Planning and Jackson Dome/storage model updates after inheriting complex code.
+	* Implemented updates such as base dollar year logic, tax/depreciation changes, capex profile corrections, iCost logic fixes, and OBBBA-related bonus depreciation changes.
+	* Improved portions of the probabilistic workflow, including fractional-year startup timing, testing, and stronger insight extraction; also worked with Data and Palantir teams to align data structures and calculations for broader use.
+
+2. Dimensions of Performance: Strengths
+* Analytical / Creates Business Value — translates model rigor into better decisions. KOF consistently described analytical rigor as one of my strongest contributions, especially my ability to take on complex models/code bases, be precise with assumptions/economics, and connect outputs to real business decisions in portfolio prioritization, storage evaluation, and gate support.
+* Communicates Effectively / Creates Clarity — makes complex outputs understandable and actionable. KOF highlighted my ability to tailor communication to leadership and non-specialists, convert probabilistic/economic results into decision-relevant storylines, and create charts/slides/templates that materially improve how quickly management understands tradeoffs.
+* Collaborates / Promotes Inclusion — builds trust across technical and business teams. KOF described me as collaborative, responsive, dependable, and easy to work with, noting effective work across CCS Data, Portfolio Coordination, Land, Subsurface, Development Planning, and global technology sites, as well as success facilitating open discussion and alignment.
+* Shows Initiative / Applies Learning — steps into gaps and ramps quickly. KOF emphasized strong ownership, fast ramp-up on inherited models, reliability under tight timelines, and willingness to step into critical workstreams, including serving as primary point of contact for the probabilistic model during a teammate’s parental leave.
+
+3. Dimensions of Performance: Development Needs
+* Move from “what the model says” to “what this means and what should happen next.” My biggest development opportunity is to pair strong technical execution with more explicit recommendation framing. I can increase my influence by leading with the business question, key implication, strategic alternatives, and recommended next step, especially in leadership forums.
+* Prepare more deliberately for challenge and scrutiny. When results are questioned, I can be more effective by anticipating likely questions in advance and using curiosity first to diagnose whether concerns are about assumptions, inputs, framing, or stakeholder expectations. This would strengthen alignment without reducing technical rigor.
+* Increase proactive visibility and workstream shaping. I can expand my impact by sharing CCS100 capabilities more proactively beyond immediate interfaces, educating broader teams earlier in decision processes, identifying unresolved problems sooner, and taking more initiative in shaping new workstreams or software solutions rather than only responding once engaged.
+* Increase software-development leverage. I want to continue increasing speed and independence in implementation, including more effective use of coding agents, stronger reuse of code patterns, and better anticipation of edge cases so more time can go toward higher-value analysis and solution development.
+
+4. Development Plan Progress
+* Transitioned from ramp-up to productive contributor in a very different role. Built working knowledge of CCS system components, economics, decision forums, and modeling workflows sufficiently to support live business requests within the year.
+* Strengthened software-development and model-maintenance capability. Increased fluency in Git/GitHub, VS Code, unit testing, debugging, ticket-based delivery, and LLM-assisted coding while working on live planning / probabilistic models.
+* Expanded ability to support business-facing analysis. Progressed from limited initial business context to active involvement in gate support, storage and corridor studies, contract questions, and scenario analysis.
+* Broadened stakeholder reach and teaching contribution. Trained a subsurface teammate on the probabilistic workflow, helped explain model/data logic to Data and Palantir teams, and supported recurring knowledge-sharing sessions for the broader business operations organization.
+
+
+
+
+My recommendation
+
+Use option 1 if you want the lower-risk version. Use option 2 if you want the stronger, more promotion-style version that leans harder into ownership and visible business impact.
+
+The biggest remaining gap is the set of specifics Alex explicitly asked for:
+
+site names for SLM / TCM / gate support
+which studies you led vs supported
+any exact meetings / milestones / gates
+any metrics you are comfortable standing behind
+
+Those are the places where I inserted __________. Fill those in before resubmitting.
