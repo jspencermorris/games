@@ -1,0 +1,45 @@
+“If I meet the expectations stated in this document throughout the 30-day period, will that constitute successful completion of the PIP?”
+
+“Who ultimately determines whether I successfully complete the PIP? Are you the primary decision-maker, or are Royce, HR, Engineering stakeholders, or others also involved?”
+
+“The document says that if any objective is not met at any time, disciplinary action may occur. Should I understand that a single miss could constitute failure of the PIP, or will my performance be evaluated across the full 30-day period and the plan as a whole?”
+
+“Are there any performance concerns, expectations, or criteria that could affect the final determination that are not stated in the signed document?”
+
+“Could we define what terms such as ‘minor shifts,’ ‘majority of tickets,’ ‘sufficient due diligence,’ ‘meaningful discussion,’ and ‘over-reliance’ mean in practice so I can evaluate my work against a clear standard?”
+
+“Could you show me or point me to examples of a Functional Spec, story, grooming preparation, or retro output that represents the level of quality you expect?”
+
+“If I believe I am meeting a requirement but you believe I am not, what is the process for resolving that difference during the PIP rather than at the end?”
+
+“If something I do during the 30 days is not meeting expectations, can you let me know promptly so I have an opportunity to correct it, rather than waiting until the next weekly review?”
+
+“Can we schedule the weekly reviews now? At each review, can we go through each major PIP category and tell me explicitly whether I am currently meeting expectations and, if not, what needs to change?”
+
+“Would it be helpful if I send you a written status before each weekly review, organized by PIP category, with examples of completed work, current status, and any blockers?”
+
+“Can you identify the specific incidents underlying each of the three categories—Product Ownership, Agile Ceremony Leadership, and Reliability—so I can make sure I understand the behaviors I need to change?”
+
+“For outcomes that depend on Engineering input, approval, or participation, how will factors outside my control be distinguished from my own performance?”
+
+“If I receive conflicting direction from Engineering and Product leadership about process or expectations, what do you want me to do, and what escalation path should I use?”
+
+“When I joined Digital, my understanding was that I would have a gradual transition, including a 30/60/90 plan while completing Sunset Preflight. When Hugh left, that transition changed substantially. What ramp-up expectations were applied to me after that change?”
+
+“During this period I continued spending substantial capacity on the previously committed Sunset Preflight work—at times approximately 30% to 70% of my capacity. How was that allocation taken into account when assessing my performance in Digital?”
+
+“During part of this period, the team did not have a Product Lead, and I understood that I was expected to take on some responsibilities beyond my normal scope. How was that circumstance taken into account when assessing my performance, and now that a Product Lead is in place, should any responsibilities or expectations for me change?”
+
+“My understanding from prior conversations is that some requirements and process issues existed before I moved into Digital. How should we distinguish those pre-existing team or process issues from issues that are being attributed specifically to my performance?”
+
+“The document refers to issues occurring over the ‘past several weeks.’ Since I was on approved PTO from August 21 through September 4, what specific period is that referring to?”
+
+“The document is titled ‘Final Written Warning.’ For my understanding of the corrective-action process, were there prior written warnings or formal performance notices that preceded this one? If so, could you point me to them?”
+
+“What happens at the end of the 30-day period? Will there be a formal review meeting and a written determination of whether I successfully completed the plan?”
+
+“If I successfully complete the PIP, do I return to normal standing, or is there an additional monitoring or corrective-action period?”
+
+“My immediate goal is to successfully complete this plan. Longer term, given my prior good standing and successful work in other roles at Flash, would successful completion leave me eligible to pursue internal opportunities, such as another product vertical or program management, if there is a role that is a better fit?”
+
+“Would successful completion of the PIP be required before I could pursue an internal opportunity?”
